@@ -64,4 +64,16 @@ print(html_text[0])
 
 postid=re.findall(r'id="(postbit.*)">',html_text[0]) #this way the postid is returned inside a list
 print(postid)
-print(type(postid[0])) #the object inside the list is a string though :) --> study better regex !!!!
+#print(type(postid[0])) #the object inside the list is a string though :) --> study better regex !!!!
+member_ref=re.findall(r'(/forum/member.*)">',html_text[0])
+print(member_ref)
+member_nick=re.findall(r'<b>(.*)</b>',html_text[0])
+print(member_nick)
+comment_title=re.findall(r'<a class="postcounter" href=.*>[0-9]+.\s*(.*)<',html_text[0])
+print(comment_title)
+comment=re.findall(r'<span class="postContent">\s*(.*)<',html_text[0])
+print(comment)
+date=re.findall(r'span class="date-time">(.*),.*<',html_text[0])
+print(date)
+time=re.findall(r'span class="date-time">.*,\s*(.*)<',html_text[0])
+print(time)
