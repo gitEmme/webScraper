@@ -4,43 +4,39 @@ import re
 from bs4 import BeautifulSoup
 from datetime import date,timedelta
 
-
-######################### not used ##########################
-def trial():
-    with open('map_topicfilename','rb') as f:
-        map=pickle.load(f)
-    print(type(map))
-    for k in map.keys():  # check opening of saved links to forum on March 20th
-        with open(map[k],'rb') as file:
-            lista=pickle.load(file)
-            print(lista[:10])
-    html_text=get_comments_box(lista[2])
-    print(lista[2])
-    print(len(html_text))
-    print(html_text[0])
-    prepare_to_mongo(html_text[4])
-
-##############################################################
-
-def find_links(site,address,string): #return links present in between a specified html tag (string);
-    main_page = requests.get(address)
-    soup = BeautifulSoup(main_page.text, 'html.parser')
-    res = []
-    for item in soup.find_all(class_=string):
-        res.append(str(item))
+############################# the following  look for links in a spiegel's html page, under a specified html class tag, reconstructing the absolute url if necessary ########################
+############################# catching connection exceptions because sometimes the comment space under an article can be closed, starting at a certain day  #################################
+def find_links(site,address,string):
     links = []
-    for e in res:
-        found = re.findall(r'(?<=href=").*?(?=")', e)  # 'href=[\'"]?([^\'" >]+)'  or '(?<=href=").*?(?=")'
-        for i in found:
-            if 'http' not in i:
-                links.append(site + i)
-            else:
-                links.append(i)
-    #for t in links:
-     #   print(t)
+    try:
+        main_page = requests.get(address)
+        soup = BeautifulSoup(main_page.text, 'html.parser')
+        res = []
+        for item in soup.find_all(class_=string):
+            res.append(str(item))
+        for e in res:
+            found = re.findall(r'(?<=href=").*?(?=")', e)  # 'href=[\'"]?([^\'" >]+)'  or '(?<=href=").*?(?=")'
+            for i in found:
+                if 'http' not in i:
+                    links.append(site + i)
+                else:
+                    links.append(i)
+        #for t in links:
+         #   print(t)
+    except requests.exceptions.HTTPError as err:
+        print("Http Error:", err)
+    except requests.exceptions.ConnectionError as errc:
+        print("Error Connecting:", errc)
+    except requests.exceptions.Timeout as errt:
+        print("Timeout Error:", errt)
+    except requests.exceptions.RequestException as errf:
+        print("OOps: Something Else", errf)
     return links
 
-def click_next(url_item): #this is used together with the find_links function to get the list of links where to take comments under a certain article
+######## comments in spiegel.de are organised in a forum divided into sections: ################################################################################################
+############ each section has links to each comments space of its articles; These links are divided into pages, sometimes several: 2484 pages under politik on 19th March ######
+############ the following is my black cat clicking next in each forum until he has copied-pasted every link to next and next of next page (and so on) in a forum section ######
+def click_next(url_item):
     site = 'http://www.spiegel.de'
     related=[]
     related.append(url_item)
@@ -54,20 +50,29 @@ def click_next(url_item): #this is used together with the find_links function to
     print(related)
     return related
 
-
+####################### this, given a comments' space, looks in every page of that space for comments ########################################
 def get_comments_box(address):
-    string='postbit clearfix' # name of html class containing each comment in www.spiegel.de
+    string='postbit clearfix' # name of html class containing each comment in http://www.spiegel.de/forum/'
     res = []
     for p in click_next(address):
-        main_page = requests.get(p)
-        soup = BeautifulSoup(main_page.text, 'html.parser')
-        for item in soup.find_all(class_=string):
-            res.append(str(item))
-        #for t in res:
-        #    print(t)
+        try:
+            main_page = requests.get(p)
+            soup = BeautifulSoup(main_page.text, 'html.parser')
+            for item in soup.find_all(class_=string):
+                res.append(str(item))
+            #for t in res:
+            #    print(t)
+        except requests.exceptions.HTTPError as err:
+            print("Http Error:", err)
+        except requests.exceptions.ConnectionError as errc:
+            print("Error Connecting:", errc)
+        except requests.exceptions.Timeout as errt:
+            print("Timeout Error:", errt)
+        except requests.exceptions.RequestException as errf:
+            print("OOps: Something Else", errf)
     return res
 
-
+####################### the following get functions are used to retrieve info from the html of extracted comments #############
 def get_post_id(html_comment):
     postid=re.findall(r'id="(postbit.*)">',html_comment)[0] #this way the postid is returned inside a list
     return postid
@@ -97,7 +102,17 @@ def get_c_body(html_comment):
     comment=re.findall(r'<span class="postContent">(.*)</span>',html_comment,re.DOTALL)[0]
     comment=re.sub(r'<br/?>',r'',comment)   #resolve problem of having <br/> between text
     comment=re.sub(r'\n',r' ',comment)  #remove empty lines and sub with a space
+    comment=re.sub(r'<q/?>',r' ',comment) #remove quotes tag and sub with  space
     return comment
+def get_quote(html_comment):
+    quote=re.findall(r'<q>(.*)</q>',html_comment,re.DOTALL)
+    if(len(quote))>0:
+        for q in quote:
+            q=re.sub(r'<br/?>',r'',q)
+            q=re.sub(r'\n',r' ',q)
+    else:
+        q=[]
+    return q
 
 def get_date(html_comment):
     d=re.findall(r'span class="date-time">(.*),.*<',html_comment)[0]
@@ -112,7 +127,7 @@ def get_date(html_comment):
 def get_time(html_comment):
     time=re.findall(r'span class="date-time">.*,\s*(.*)<',html_comment)[0]
     return time
-
+################ the following map each extracted property to its value: preparing data for the database ##############
 def prepare_to_mongo(html_comment,link):
     map={}
     map['post_id']=get_post_id(html_comment)
@@ -123,31 +138,38 @@ def prepare_to_mongo(html_comment,link):
     map['date']=get_date(html_comment)
     map['time']=get_time(html_comment)
     map['forum_link']=link
+    map['quotes']=get_quote(html_comment)
     for e in map.keys():
         print(e,map[e])
     return map
 
-
+#################### the following are used to contruct lists of comments with related info and save them into pickle files ######
 def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     db_entries = []
-    for p in lista[0:1001]:
-        all_comments=get_comments_box(p)
-        for c in all_comments:
-            db_entries.append(prepare_to_mongo(c,p))
-    print(len(db_entries))
-    with open('comments/politik_comments_01', 'wb') as coll:    # save comments ready to push in a db in a pickle file
-        pickle.dump(db_entries,coll)
-    coll.close()
+    for i in range(4,11):
+        for p in lista[(i-1)*200+1:i*200+1]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+            all_comments=get_comments_box(p)
+            for c in all_comments:
+                db_entries.append(prepare_to_mongo(c,p))
+        print(len(db_entries))
+        with open('comments/politik_'+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
+            pickle.dump(db_entries,coll)
+        coll.close()
 
-lista_sections=['forum/spiegel_forum_politik','forum/spiegel_forum_wirtschaft'
-,'forum/spiegel_forum_panorama','forum/spiegel_forum_sport'
-,'forum/spiegel_forum_kultur','forum/spiegel_forum_netzwelt'
-,'forum/spiegel_forum_wissenschaft','forum/spiegel_forum_gesundheit'
-,'forum/spiegel_forum_karriere','forum/spiegel_forum_lebenundlernen'
-,'forum/spiegel_forum_reise','forum/spiegel_forum_auto']
 
-with open(lista_sections[0], 'rb') as file: #read saved article links from politik forum section
-    lista = pickle.load(file)
-print(lista[:10])
-prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
-print(len(lista))
+def saving():
+    lista_sections=['forum/spiegel_forum_politik','forum/spiegel_forum_wirtschaft'
+    ,'forum/spiegel_forum_panorama','forum/spiegel_forum_sport'
+    ,'forum/spiegel_forum_kultur','forum/spiegel_forum_netzwelt'
+    ,'forum/spiegel_forum_wissenschaft','forum/spiegel_forum_gesundheit'
+    ,'forum/spiegel_forum_karriere','forum/spiegel_forum_lebenundlernen'
+    ,'forum/spiegel_forum_reise','forum/spiegel_forum_auto']
+
+    with open(lista_sections[0], 'rb') as file: #read saved article links from politik forum section
+        lista = pickle.load(file)
+    print(lista[:10])
+    prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
+    print(len(lista))
+
+#at the moment saving comments from section politik lista_sections[0]
+saving()
