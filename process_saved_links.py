@@ -130,7 +130,7 @@ def prepare_to_mongo(html_comment,link):
 
 def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     db_entries = []
-    for p in lista[0:5001]:
+    for p in lista[0:1001]:
         all_comments=get_comments_box(p)
         for c in all_comments:
             db_entries.append(prepare_to_mongo(c,p))
