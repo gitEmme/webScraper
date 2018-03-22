@@ -144,17 +144,29 @@ def prepare_to_mongo(html_comment,link):
     return map
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
-def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
+def prepare_for_db(*lista,stringa): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     db_entries = []
-    for i in range(4,11):
-        for p in lista[(i-1)*200+1:i*200+1]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
-            all_comments=get_comments_box(p)
-            for c in all_comments:
-                db_entries.append(prepare_to_mongo(c,p))
-        print(len(db_entries))
-        with open('comments/politik_'+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
-            pickle.dump(db_entries,coll)
-        coll.close()
+    max_index=len(lista)/200
+    for i in range(11,max_index+1):
+        if i==max_index:
+            for p in lista[(i-1)*200+1:i*200+1]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+                all_comments=get_comments_box(p)
+                for c in all_comments:
+                    db_entries.append(prepare_to_mongo(c,p))
+            print(len(db_entries))
+            with open('comments/'+stringa+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
+                pickle.dump(db_entries,coll)
+            coll.close()
+        else:
+            for p in lista[(i-1)*200+1:]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+                all_comments=get_comments_box(p)
+                for c in all_comments:
+                    db_entries.append(prepare_to_mongo(c,p))
+            print(len(db_entries))
+            with open('comments/'+stringa+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
+                pickle.dump(db_entries,coll)
+            coll.close()
+
 
 
 def saving():
@@ -167,9 +179,19 @@ def saving():
 
     with open(lista_sections[0], 'rb') as file: #read saved article links from politik forum section
         lista = pickle.load(file)
-    print(lista[:10])
-    prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
+    #print(lista[:10])
+    prepare_for_db(*lista[0:6000],'politik_')  #prepare file of dictionaries (one for each comment) to put in the database then
     print(len(lista))
 
+def check_saved(file_name):     #to open a saved comments pickle file and count the total amount
+    l=0
+    for i in range(1,11):
+        with open(file_name+str(i),'rb') as fp:
+            read=pickle.load(fp)
+        fp.close()
+        l+=len(read)
+    print(l)
+
 #at the moment saving comments from section politik lista_sections[0]
-saving()
+#saving() # 22th march saved comments from first 2000 links, rith now uncommenting saving() it is set to go untill links 6000
+check_saved('comments/politik_')
