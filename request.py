@@ -25,7 +25,7 @@ def prepare_single_page(site,address,string):
         print(t)
     return links
 
-def search_next_page(url_item):
+def search_next_page(url_item): #similar to the click_next function in process_saved_links.py, but here once accessed the Forum section  at 'http://www.spiegel.de/forum/' I look for all links to discussions under a certain section
     site = 'http://www.spiegel.de'
     related=[]
     for t in prepare_single_page(site,url_item,'thread-content'):
@@ -42,7 +42,8 @@ def search_next_page(url_item):
     print(type(related[0]))
     return related
 
-###################### TO USE TO UPDATE FILES OF LINKS LIST FOR FORUM TOPICS ##############################3
+###################### TO USE TO UPDATE FILES OF LINKS LIST FOR FORUM TOPICS ###################################################
+###################### links are currently saved in the forum folder into pickle files: they been retrieved on March 19th-20th
 
 def save_links(**map):  #to pass map_topicfilename to retrieve all article links in each forum section and save them in their respective file
     for item in map.keys(): #for each link to forum section s --> they all save in 'map_topicfilename': url:file
@@ -57,9 +58,6 @@ def check_saved(file_name):     #to open a saved pickle file and check what is i
     print(read[:10])
     fp.close()
 
-with open('spiegel_forum_sections', 'rb') as fb:
-    l=pickle.load(fb)
-fb.close()
 with open('map_topicfilename','rb') as fi:
     m=pickle.load(fi)
     #print(m)   #?? use pprint
