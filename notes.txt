@@ -1,4 +1,4 @@
-23rd March:
+on 23rd March:
 #comments in comments/politik_1:  10878
 #comments in comments/politik_2:  11592
 #comments in comments/politik_3:  13193
@@ -10,4 +10,12 @@
 #comments in comments/politik_9:  73778
 #comments in comments/politik_10:  88746
 #comments in comments/politik_11:  11881
- All together: 407364 comments collected
+#comments in comments/politik_12:  11782
+#comments in comments/politik_13:  21485
+#comments in comments/politik_14:  33916
+#comments in comments/politik_15:  45923
+#comments in comments/politik_16:  61969
+#comments in comments/politik_17:  77980
+
+ All together: 660419 comments collected
+ They result from scanning 3400 links to article in 'Politik' section
