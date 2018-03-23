@@ -103,6 +103,7 @@ def get_c_body(html_comment):
     comment=re.sub(r'<br/?>',r'',comment)   #resolve problem of having <br/> between text
     comment=re.sub(r'\n',r' ',comment)  #remove empty lines and sub with a space
     comment=re.sub(r'<q/?>',r' ',comment) #remove quotes tag and sub with  space
+    comment=re.sub(r'&amp;','&',comment) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
     return comment
 def get_quote(html_comment):
     quote=re.findall(r'<q>(.*)</q>',html_comment,re.DOTALL)
@@ -189,9 +190,10 @@ def check_saved(file_name):     #to open a saved comments pickle file and count 
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
+        print('#comments in '+file_name+str(i)+': ',len(read))
         l+=len(read)
     print(l)
 
 #at the moment saving comments from section politik lista_sections[0]
-#saving() # 22th march saved comments from first 2000 links, rith now uncommenting saving() it is set to go untill links 6000
-check_saved('comments/politik_')
+saving() # 22th march saved comments from first 2000 links, rith now uncommenting saving() it is set to go untill links 6000
+#check_saved('comments/politik_')
