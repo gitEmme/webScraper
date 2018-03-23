@@ -99,11 +99,14 @@ def get_c_title(html_comment):
     return comment_title
 
 def get_c_body(html_comment):
-    comment=re.findall(r'<span class="postContent">(.*)</span>',html_comment,re.DOTALL)[0]
-    comment=re.sub(r'<br/?>',r'',comment)   #resolve problem of having <br/> between text
-    comment=re.sub(r'\n',r' ',comment)  #remove empty lines and sub with a space
-    comment=re.sub(r'<q/?>',r' ',comment) #remove quotes tag and sub with  space
-    comment=re.sub(r'&amp;','&',comment) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
+    c=re.findall(r'<span class="postContent">(.*)</span>',html_comment,re.DOTALL)
+    comment=''
+    if (len(c) > 0):    #there are comments with just title and a quote of another comment :o
+        comment=c[0]
+        comment=re.sub(r'<br/?>',r'',comment)   #resolve problem of having <br/> between text
+        comment=re.sub(r'\n',r' ',comment)  #remove empty lines and sub with a space
+        comment=re.sub(r'<q/?>',r' ',comment) #remove quotes tag and sub with  space
+        comment=re.sub(r'&amp;','&',comment) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
     return comment
 def get_quote(html_comment):
     quote=re.findall(r'<q>(.*)</q>',html_comment,re.DOTALL)
@@ -145,27 +148,30 @@ def prepare_to_mongo(html_comment,link):
     return map
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
-def prepare_for_db(*lista,stringa): #take a list of links and from that it retrieve all comments and put in a ready form for the db
+def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     db_entries = []
-    max_index=len(lista)/200
-    for i in range(11,max_index+1):
-        if i==max_index:
-            for p in lista[(i-1)*200+1:i*200+1]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
-                all_comments=get_comments_box(p)
+    stringa='politik_'
+    max_index=len(lista)//200
+    for i in range(12,max_index+1):
+        if i<max_index:
+            for p in lista[(i-1)*200 + 1:i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+                all_comments = get_comments_box(p)
                 for c in all_comments:
-                    db_entries.append(prepare_to_mongo(c,p))
+                    db_entries.append(prepare_to_mongo(c, p))
             print(len(db_entries))
-            with open('comments/'+stringa+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
-                pickle.dump(db_entries,coll)
+            with open('comments/' + stringa + str(i),
+                      'wb') as coll:  # save comments ready to push in a db in a pickle file
+                pickle.dump(db_entries, coll)
             coll.close()
         else:
-            for p in lista[(i-1)*200+1:]: #links to articles' forum are scanned 200 in 200 not to exceed maximum list size
-                all_comments=get_comments_box(p)
+            for p in lista[(i-1)*200 + 1:]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+                all_comments = get_comments_box(p)
                 for c in all_comments:
-                    db_entries.append(prepare_to_mongo(c,p))
+                    db_entries.append(prepare_to_mongo(c, p))
             print(len(db_entries))
-            with open('comments/'+stringa+str(i), 'wb') as coll:    # save comments ready to push in a db in a pickle file
-                pickle.dump(db_entries,coll)
+            with open('comments/' + stringa + str(i),
+                      'wb') as coll:  # save comments ready to push in a db in a pickle file
+                pickle.dump(db_entries, coll)
             coll.close()
 
 
@@ -181,12 +187,12 @@ def saving():
     with open(lista_sections[0], 'rb') as file: #read saved article links from politik forum section
         lista = pickle.load(file)
     #print(lista[:10])
-    prepare_for_db(*lista[0:6000],'politik_')  #prepare file of dictionaries (one for each comment) to put in the database then
+    prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
     print(len(lista))
 
 def check_saved(file_name):     #to open a saved comments pickle file and count the total amount
     l=0
-    for i in range(1,11):
+    for i in range(1,12):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
