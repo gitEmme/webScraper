@@ -1,43 +1,45 @@
-on 23rd March:
+on 29th March:
+
+#comments in comments/wirtschaft_1:  11290
+#comments in comments/wirtschaft_2:  10260
+#comments in comments/wirtschaft_3:  11212
+#comments in comments/wirtschaft_4:  12953
+#comments in comments/wirtschaft_5:  12221
+#comments in comments/wirtschaft_6:  11783
+#comments in comments/wirtschaft_7:  12682
+#comments in comments/wirtschaft_8:  10481
+#comments in comments/wirtschaft_9:  13182
+#comments in comments/wirtschaft_10:  14045
+#comments in comments/wirtschaft_11:  14815
+#comments in comments/wirtschaft_12:  10727
+#comments in comments/wirtschaft_13:  12566
+#comments in comments/wirtschaft_14:  13736
+#comments in comments/wirtschaft_15:  12689
+#comments in comments/wirtschaft_16:  11371
+#comments in comments/wirtschaft_17:  13876
+#comments in comments/wirtschaft_18:  14684
+#comments in comments/wirtschaft_19:  16244
+#comments in comments/wirtschaft_20:  14453
+#comments in comments/wirtschaft_21:  15680
+#comments in comments/wirtschaft_22:  15815
+#comments in comments/wirtschaft_23:  15081
+#comments in comments/wirtschaft_24:  18151
+#comments in comments/wirtschaft_25:  16454
+#comments in comments/wirtschaft_26:  11125
+#comments in comments/wirtschaft_27:  13439
+
+All together: 361015 comments collected in 'wirtschaft' section
+links are scanned 200 in 200
+
+
 #comments in comments/politik_1:  10878
 #comments in comments/politik_2:  11592
 #comments in comments/politik_3:  13193
 #comments in comments/politik_4:  14581
-#comments in comments/politik_5:  27275
-#comments in comments/politik_6:  40867
-#comments in comments/politik_7:  51874
-#comments in comments/politik_8:  62699
-#comments in comments/politik_9:  73778
-#comments in comments/politik_10:  88746
-#comments in comments/politik_11:  11881
-#comments in comments/politik_12:  11782
-#comments in comments/politik_13:  21485
-#comments in comments/politik_14:  33916
-#comments in comments/politik_15:  45923
-#comments in comments/politik_16:  61969
-#comments in comments/politik_17:  77980
-#comments in comments/politik_18:  18601
-#comments in comments/politik_19:  36719
-#comments in comments/politik_20:  53241
-#comments in comments/politik_21:  74743
-#comments in comments/politik_22:  91903
-#comments in comments/politik_23:  106080
-#comments in comments/politik_24:  122660
-#comments in comments/politik_25:  139042
-#comments in comments/politik_26:  154380
-#comments in comments/politik_27:  170592
-#comments in comments/politik_28:  184904
-#comments in comments/politik_29:  202756
-#comments in comments/politik_30:  219952
-#comments in comments/politik_31:  235161
-#comments in comments/politik_32:  256432
-#comments in comments/politik_33:  275778
-#comments in comments/politik_34:  293795
-#comments in comments/politik_35:  307243
-#comments in comments/politik_36:  322788
-#comments in comments/politik_37:  343098
-#comments in comments/politik_38:  359738
+
+All together: 50244 comments collected in 'politik' section
+links are scanned 200 in 200
+
+Most of the Links have not been scanned yet
 
 
- All together: 4630025 comments collected
- They result from scanning 3400 links to article in 'Politik' section
