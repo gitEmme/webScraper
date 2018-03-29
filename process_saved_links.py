@@ -87,7 +87,7 @@ def get_member_ref(html_comment):
     return member_ref
 
 def get_member_nick(html_comment):
-    temp=re.findall(r'<b>(.*)</b>',html_comment)
+    temp=re.findall(r'<b>(.*\S)</b>',html_comment)
     if len(temp)>0:
         member_nick=temp[0]
     else:
@@ -95,28 +95,39 @@ def get_member_nick(html_comment):
     return member_nick
 
 def get_c_title(html_comment):
-    comment_title=re.findall(r'<a class="postcounter" href=.*>[0-9]+.\s*(.*)<',html_comment)[0]
+    title=re.findall(r'<a class="postcounter" href=.*>[0-9]+.\s*(.*\S)<',html_comment)
+    if(len(title)>0):
+        comment_title=title[0]
+    else:
+        comment_title=''
     return comment_title
 
 def get_c_body(html_comment):
-    c=re.findall(r'<span class="postContent">(.*)</span>',html_comment,re.DOTALL)
+    c=re.findall(r'<span class="postContent">(.*)</span>\s*</p>',html_comment,re.DOTALL)
     comment=''
     if (len(c) > 0):    #there are comments with just title and a quote of another comment :o
-        comment=c[0]
-        comment=re.sub(r'<br/?>',r'',comment)   #resolve problem of having <br/> between text
-        comment=re.sub(r'\n',r' ',comment)  #remove empty lines and sub with a space
-        comment=re.sub(r'<q/?>',r' ',comment) #remove quotes tag and sub with  space
-        comment=re.sub(r'&amp;','&',comment) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
+        comment=''
+        for stringa in c:
+            stringa=re.sub(r'<br?/?>',r' ',stringa)   #resolve problem of having <br/> between text and/or <b/>
+            stringa=re.sub(r'\n',r' ',stringa)  #remove empty lines and sub with a space
+            stringa=re.sub(r'</?q>',r' ',stringa) #remove quotes tag and sub with  space
+            stringa=re.sub(r'&amp;',r'&',stringa) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
+            comment=comment+stringa
     return comment
 def get_quote(html_comment):
-    quote=re.findall(r'<q>(.*)</q>',html_comment,re.DOTALL)
-    if(len(quote))>0:
-        for q in quote:
-            q=re.sub(r'<br/?>',r'',q)
-            q=re.sub(r'\n',r' ',q)
+    quote_f=re.findall(r'<q>(.*)</q>\s*</span>',html_comment,re.DOTALL)
+    if(len(quote_f))>0:
+        quote=[]
+        for q in quote_f:
+            temp=q
+            temp=re.sub(r'<b?r?/?>',r'',temp)
+            temp=re.sub(r'\n',r' ',temp)
+            temp=re.sub(r'</?q>',r'',temp)
+            temp=re.sub(r'&amp;',r'&',temp)
+            quote.append(temp)
     else:
-        q=[]
-    return q
+        quote=[]
+    return quote
 
 def get_date(html_comment):
     d=re.findall(r'span class="date-time">(.*),.*<',html_comment)[0]
@@ -149,18 +160,28 @@ def prepare_to_mongo(html_comment,link):
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
 def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
-    db_entries = []
-    stringa='politik_'
+    stringa='wirtschaft_'
     max_index=len(lista)//200
-    for i in range(12,max_index+1):
-        if i<max_index:
+    for i in range(19,20):
+        db_entries = []
+        if i==1:
+            for p in lista[(i-1)*200 :i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
+                all_comments = get_comments_box(p)
+                for c in all_comments:
+                    db_entries.append(prepare_to_mongo(c, p))
+            print(len(db_entries))
+            print('WRITING ON FILE: ' + stringa + str(i))
+            with open('comments/' + stringa + str(i),'wb') as coll:  # save comments ready to push in a db in a pickle file
+                pickle.dump(db_entries, coll)
+            coll.close()
+        elif 1<i<max_index:
             for p in lista[(i-1)*200 + 1:i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
                 all_comments = get_comments_box(p)
                 for c in all_comments:
                     db_entries.append(prepare_to_mongo(c, p))
             print(len(db_entries))
-            with open('comments/' + stringa + str(i),
-                      'wb') as coll:  # save comments ready to push in a db in a pickle file
+            print('WRITING ON FILE: ' + stringa + str(i))
+            with open('comments/' + stringa + str(i),'wb') as coll:  # save comments ready to push in a db in a pickle file
                 pickle.dump(db_entries, coll)
             coll.close()
         else:
@@ -169,8 +190,8 @@ def prepare_for_db(*lista): #take a list of links and from that it retrieve all 
                 for c in all_comments:
                     db_entries.append(prepare_to_mongo(c, p))
             print(len(db_entries))
-            with open('comments/' + stringa + str(i),
-                      'wb') as coll:  # save comments ready to push in a db in a pickle file
+            print('WRITING ON FILE: '+stringa+str(i))
+            with open('comments/' + stringa + str(i),'wb') as coll:  # save comments ready to push in a db in a pickle file
                 pickle.dump(db_entries, coll)
             coll.close()
 
@@ -184,7 +205,7 @@ def saving():
     ,'forum/spiegel_forum_karriere','forum/spiegel_forum_lebenundlernen'
     ,'forum/spiegel_forum_reise','forum/spiegel_forum_auto']
 
-    with open(lista_sections[0], 'rb') as file: #read saved article links from politik forum section
+    with open(lista_sections[1], 'rb') as file: #read saved article links from politik forum section
         lista = pickle.load(file)
     #print(lista[:10])
     prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
@@ -192,14 +213,15 @@ def saving():
 
 def check_saved(file_name):     #to open a saved comments pickle file and count the total amount
     l=0
-    for i in range(1,12):
+    for i in range(1,6):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
+        print(read[:3])
         print('#comments in '+file_name+str(i)+': ',len(read))
         l+=len(read)
     print(l)
 
-#at the moment saving comments from section politik lista_sections[0]
-saving() # 22th march saved comments from first 2000 links, rith now uncommenting saving() it is set to go untill links 6000
-#check_saved('comments/politik_')
+#at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
+saving()
+#check_saved('comments/wirtschaft_')
