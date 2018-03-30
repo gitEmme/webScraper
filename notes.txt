@@ -1,0 +1,45 @@
+on 29th March:
+
+#comments in comments/wirtschaft_1:  11290
+#comments in comments/wirtschaft_2:  10260
+#comments in comments/wirtschaft_3:  11212
+#comments in comments/wirtschaft_4:  12953
+#comments in comments/wirtschaft_5:  12221
+#comments in comments/wirtschaft_6:  11783
+#comments in comments/wirtschaft_7:  12682
+#comments in comments/wirtschaft_8:  10481
+#comments in comments/wirtschaft_9:  13182
+#comments in comments/wirtschaft_10:  14045
+#comments in comments/wirtschaft_11:  14815
+#comments in comments/wirtschaft_12:  10727
+#comments in comments/wirtschaft_13:  12566
+#comments in comments/wirtschaft_14:  13736
+#comments in comments/wirtschaft_15:  12689
+#comments in comments/wirtschaft_16:  11371
+#comments in comments/wirtschaft_17:  13876
+#comments in comments/wirtschaft_18:  14684
+#comments in comments/wirtschaft_19:  16244
+#comments in comments/wirtschaft_20:  14453
+#comments in comments/wirtschaft_21:  15680
+#comments in comments/wirtschaft_22:  15815
+#comments in comments/wirtschaft_23:  15081
+#comments in comments/wirtschaft_24:  18151
+#comments in comments/wirtschaft_25:  16454
+#comments in comments/wirtschaft_26:  11125
+#comments in comments/wirtschaft_27:  13439
+
+All together: 361015 comments collected in 'wirtschaft' section
+links are scanned 200 in 200
+
+
+#comments in comments/politik_1:  10878
+#comments in comments/politik_2:  11592
+#comments in comments/politik_3:  13193
+#comments in comments/politik_4:  14581
+
+All together: 50244 comments collected in 'politik' section
+links are scanned 200 in 200
+
+Most of the Links have not been scanned yet
+
+
