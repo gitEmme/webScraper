@@ -1,4 +1,46 @@
-on 29th March:
+on 1st April:
+
+#comments in comments/politik_1:  11285
+#comments in comments/politik_2:  10262
+#comments in comments/politik_3:  11212
+#comments in comments/politik_4:  12953
+#comments in comments/politik_5:  12221
+#comments in comments/politik_6:  11783
+#comments in comments/politik_7:  12682
+#comments in comments/politik_8:  10481
+#comments in comments/politik_9:  13182
+#comments in comments/politik_10:  14045
+#comments in comments/politik_11:  14815
+#comments in comments/politik_12:  10727
+#comments in comments/politik_13:  12566
+#comments in comments/politik_14:  13736
+#comments in comments/politik_15:  12562
+#comments in comments/politik_16:  11371
+#comments in comments/politik_17:  13876
+#comments in comments/politik_18:  14684
+#comments in comments/politik_19:  16145
+#comments in comments/politik_20:  14453
+#comments in comments/politik_21:  15670
+#comments in comments/politik_22:  15815
+#comments in comments/politik_23:  15081
+#comments in comments/politik_24:  18151
+#comments in comments/politik_25:  16454
+#comments in comments/politik_26:  11125
+#comments in comments/politik_27:  13439
+#comments in comments/politik_28:  14822
+#comments in comments/politik_29:  19573
+#comments in comments/politik_30:  16321
+#comments in comments/politik_31:  15875
+#comments in comments/politik_32:  14121
+#comments in comments/politik_33:  16004
+#comments in comments/politik_34:  16274
+#comments in comments/politik_35:  14668
+#comments in comments/politik_36:  14057
+#comments in comments/politik_37:  13885
+#comments in comments/politik_38:  15658
+#comments in comments/politik_39:  16780
+
+Total comments/politik_ :548814
 
 #comments in comments/wirtschaft_1:  11290
 #comments in comments/wirtschaft_2:  10260
@@ -28,16 +70,11 @@ on 29th March:
 #comments in comments/wirtschaft_26:  11125
 #comments in comments/wirtschaft_27:  13439
 
-All together: 361015 comments collected in 'wirtschaft' section
-links are scanned 200 in 200
+Total comments/wirtschaft_ :361015
 
 
-#comments in comments/politik_1:  10878
-#comments in comments/politik_2:  11592
-#comments in comments/politik_3:  13193
-#comments in comments/politik_4:  14581
+total in comments/: 909829
 
-All together: 50244 comments collected in 'politik' section
 links are scanned 200 in 200
 
 Most of the Links have not been scanned yet

@@ -160,9 +160,9 @@ def prepare_to_mongo(html_comment,link):
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
 def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
-    stringa='wirtschaft_'
+    stringa='politik_'
     max_index=len(lista)//200
-    for i in range(19,20):
+    for i in range(1,20):
         db_entries = []
         if i==1:
             for p in lista[(i-1)*200 :i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
@@ -211,17 +211,20 @@ def saving():
     prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
     print(len(lista))
 
-def check_saved(file_name):     #to open a saved comments pickle file and count the total amount
+def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
     l=0
-    for i in range(1,6):
+    for i in range(1,max):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
-        print(read[:3])
+        #print(read[:3])
         print('#comments in '+file_name+str(i)+': ',len(read))
         l+=len(read)
-    print(l)
+    print('Total '+ file_name+' :'+str(l))
+    return l
 
 #at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
-saving()
-#check_saved('comments/wirtschaft_')
+#saving()
+p=check_saved('comments/politik_',20)
+w=check_saved('comments/wirtschaft_',28)
+print('total in comments/: '+ str(p+w))
