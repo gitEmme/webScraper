@@ -1,4 +1,4 @@
-on 29th March:
+on 1st April:
 
 #comments in comments/politik_1:  11285
 #comments in comments/politik_2:  10262
@@ -19,8 +19,28 @@ on 29th March:
 #comments in comments/politik_17:  13876
 #comments in comments/politik_18:  14684
 #comments in comments/politik_19:  16145
+#comments in comments/politik_20:  14453
+#comments in comments/politik_21:  15670
+#comments in comments/politik_22:  15815
+#comments in comments/politik_23:  15081
+#comments in comments/politik_24:  18151
+#comments in comments/politik_25:  16454
+#comments in comments/politik_26:  11125
+#comments in comments/politik_27:  13439
+#comments in comments/politik_28:  14822
+#comments in comments/politik_29:  19573
+#comments in comments/politik_30:  16321
+#comments in comments/politik_31:  15875
+#comments in comments/politik_32:  14121
+#comments in comments/politik_33:  16004
+#comments in comments/politik_34:  16274
+#comments in comments/politik_35:  14668
+#comments in comments/politik_36:  14057
+#comments in comments/politik_37:  13885
+#comments in comments/politik_38:  15658
+#comments in comments/politik_39:  16780
 
-Total comments/politik_ :240588
+Total comments/politik_ :548814
 
 #comments in comments/wirtschaft_1:  11290
 #comments in comments/wirtschaft_2:  10260
@@ -52,7 +72,8 @@ Total comments/politik_ :240588
 
 Total comments/wirtschaft_ :361015
 
-total in comments/: 601603
+
+total in comments/: 909829
 
 links are scanned 200 in 200
 
