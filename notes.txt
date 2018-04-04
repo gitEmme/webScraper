@@ -1,4 +1,4 @@
-on 1st April:
+on 4th April 2018:
 
 #comments in comments/politik_1:  11285
 #comments in comments/politik_2:  10262
@@ -72,11 +72,87 @@ Total comments/politik_ :548814
 
 Total comments/wirtschaft_ :361015
 
+#comments in comments/sport_1:  3180
+#comments in comments/sport_2:  3349
+#comments in comments/sport_3:  2110
+#comments in comments/sport_4:  2911
+#comments in comments/sport_5:  1880
+#comments in comments/sport_6:  1807
+#comments in comments/sport_7:  3121
+#comments in comments/sport_8:  2962
+#comments in comments/sport_9:  4519
+#comments in comments/sport_10:  2530
+#comments in comments/sport_11:  3147
+#comments in comments/sport_12:  2549
+#comments in comments/sport_13:  2290
+#comments in comments/sport_14:  4084
+#comments in comments/sport_15:  3479
+#comments in comments/sport_16:  3061
+#comments in comments/sport_17:  3827
+#comments in comments/sport_18:  4245
+#comments in comments/sport_19:  3335
+#comments in comments/sport_20:  3382
 
-total in comments/: 909829
+Total comments/sport_ :61768
+
+#comments in comments/kultur_1:  6318
+#comments in comments/kultur_2:  6786
+#comments in comments/kultur_3:  6532
+#comments in comments/kultur_4:  5392
+#comments in comments/kultur_5:  7938
+#comments in comments/kultur_6:  12755
+#comments in comments/kultur_7:  6941
+#comments in comments/kultur_8:  6166
+#comments in comments/kultur_9:  7130
+#comments in comments/kultur_10:  9578
+#comments in comments/kultur_11:  7653
+#comments in comments/kultur_12:  5802
+#comments in comments/kultur_13:  4922
+#comments in comments/kultur_14:  8008
+#comments in comments/kultur_15:  7809
+#comments in comments/kultur_16:  11841
+#comments in comments/kultur_17:  11110
+#comments in comments/kultur_18:  10112
+#comments in comments/kultur_19:  12071
+#comments in comments/kultur_20:  7479
+
+Total comments/kultur_ :162343
+
+#comments in comments/panorama_1:  5320
+#comments in comments/panorama_2:  4835
+#comments in comments/panorama_3:  4316
+#comments in comments/panorama_4:  4064
+#comments in comments/panorama_5:  5688
+#comments in comments/panorama_6:  3800
+#comments in comments/panorama_7:  3373
+#comments in comments/panorama_8:  4650
+#comments in comments/panorama_9:  4623
+#comments in comments/panorama_10:  5187
+#comments in comments/panorama_11:  4693
+#comments in comments/panorama_12:  4316
+#comments in comments/panorama_13:  6112
+#comments in comments/panorama_14:  6315
+#comments in comments/panorama_15:  4758
+#comments in comments/panorama_16:  5091
+#comments in comments/panorama_17:  7292
+#comments in comments/panorama_18:  4794
+#comments in comments/panorama_19:  8078
+#comments in comments/panorama_20:  7558
+
+Total comments/panorama_ :104863
+
+#comments in comments/netzwelt_1:  5890
+
+Total comments/netzwelt_ :5890
+
+
+
+total in comments/: 1333583
 
 links are scanned 200 in 200
 
 Most of the Links have not been scanned yet
+
+Scanning started on 20th March... comments to new articles in the Forum section (after 20th March) are not considered
 
 
