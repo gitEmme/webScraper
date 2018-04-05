@@ -103,10 +103,9 @@ def get_c_title(html_comment):
     return comment_title
 
 def get_c_body(html_comment):
-    c=re.findall(r'<span class="postContent">(.*)</span>\s*</p>',html_comment,re.DOTALL)
+    c=re.findall(r'<span class="postContent">(.*?)</span>',html_comment,re.DOTALL)
     comment=''
     if (len(c) > 0):    #there are comments with just title and a quote of another comment :o
-        comment=''
         for stringa in c:
             stringa=re.sub(r'<br?/?>',r' ',stringa)   #resolve problem of having <br/> between text and/or <b/>
             stringa=re.sub(r'\n',r' ',stringa)  #remove empty lines and sub with a space
@@ -114,10 +113,11 @@ def get_c_body(html_comment):
             stringa=re.sub(r'&amp;',r'&',stringa) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
             comment=comment+stringa
     return comment
+
 def get_quote(html_comment):
-    quote_f=re.findall(r'<q>(.*)</q>\s*</span>',html_comment,re.DOTALL)
+    quote_f=re.findall(r'<q>(.*?)</q>',html_comment,re.DOTALL)
+    quote=[]
     if(len(quote_f))>0:
-        quote=[]
         for q in quote_f:
             temp=q
             temp=re.sub(r'<b?r?/?>',r'',temp)
@@ -160,9 +160,9 @@ def prepare_to_mongo(html_comment,link):
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
 def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
-    stringa='politik_'
+    stringa='wissenschaft_'
     max_index=len(lista)//200
-    for i in range(1,20):
+    for i in range(0,21):
         db_entries = []
         if i==1:
             for p in lista[(i-1)*200 :i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
@@ -205,7 +205,7 @@ def saving():
     ,'forum/spiegel_forum_karriere','forum/spiegel_forum_lebenundlernen'
     ,'forum/spiegel_forum_reise','forum/spiegel_forum_auto']
 
-    with open(lista_sections[1], 'rb') as file: #read saved article links from politik forum section
+    with open(lista_sections[6], 'rb') as file: #read saved article links from politik forum section
         lista = pickle.load(file)
     #print(lista[:10])
     prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
@@ -224,7 +224,12 @@ def check_saved(file_name,max):     #to open a saved comments pickle file and co
     return l
 
 #at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
-#saving()
-p=check_saved('comments/politik_',20)
-w=check_saved('comments/wirtschaft_',28)
-print('total in comments/: '+ str(p+w))
+saving()
+#p=check_saved('comments/politik_',44)
+#w=check_saved('comments/wirtschaft_',28)
+#s=check_saved('comments/sport_',21)
+#c=check_saved('comments/kultur_',21)
+#pa=check_saved('comments/panorama_',21)
+#n=check_saved('comments/netzwelt_',2)
+
+#print('total in comments/: '+ str(p+w+s+c+pa+n))
