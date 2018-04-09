@@ -192,5 +192,20 @@ def correct_quote():    # used to correct quotes in witschaft file 1-5.. the new
             pickle.dump(write_back,fs)
         fs.close()
 
+########################## If the comment contains links they are at the moment enclosed to <a href ... </a> ----> use the following to correct them
 
-test_quote()
+def correct_links(body):
+    #body='Ich wundere mich ein wenig, dass Rezi noch nicht "aufgetaucht" ist, um Sie <a href="http://en.wikipedia.org/wiki/Image:Alfa_class_submarine.JPG" rel="nofollow" target="_blank">hier</a> rein zu stecken. Er hat da akuten Personalmangel!'\
+    'member_nickname Umberto'
+    #print('Prima')
+    #print(body)
+    t=re.search(r'(?<=href=").*?(?=")',body).group()
+    if(t):
+        body=re.sub(r'<a href.*?</a>',t,body)
+    #print('dopo')
+    #print(body)
+
+b='Ich wundere mich ein wenig, dass Rezi noch nicht "aufgetaucht" ist, um Sie <a href="http://en.wikipedia.org/wiki/Image:Alfa_class_submarine.JPG" rel="nofollow" target="_blank">hier</a> rein zu stecken. Er hat da akuten Personalmangel!'\
+'member_nickname Umberto'
+correct_links(b)
+

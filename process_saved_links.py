@@ -73,6 +73,11 @@ def get_comments_box(address):
     return res
 
 ####################### the following get functions are used to retrieve info from the html of extracted comments #############
+def fix_links(element):
+    t=re.search(r'(?<=href=").*?(?=")',element)
+    if(t):
+        element=re.sub(r'<a href.*?</a>',t.group(),element)
+    return element
 def get_post_id(html_comment):
     postid=re.findall(r'id="(postbit.*)">',html_comment)[0] #this way the postid is returned inside a list
     return postid
@@ -111,6 +116,7 @@ def get_c_body(html_comment):
             stringa=re.sub(r'\n',r' ',stringa)  #remove empty lines and sub with a space
             stringa=re.sub(r'</?q>',r' ',stringa) #remove quotes tag and sub with  space
             stringa=re.sub(r'&amp;',r'&',stringa) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
+            stringa=fix_links(stringa)
             comment=comment+stringa
     return comment
 
@@ -124,6 +130,7 @@ def get_quote(html_comment):
             temp=re.sub(r'\n',r' ',temp)
             temp=re.sub(r'</?q>',r'',temp)
             temp=re.sub(r'&amp;',r'&',temp)
+            temp=fix_links(temp)
             quote.append(temp)
     else:
         quote=[]
@@ -159,10 +166,14 @@ def prepare_to_mongo(html_comment,link):
     return map
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
-def prepare_for_db(*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
-    stringa='wissenschaft_'
+def prepare_for_db(stringa,*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
+    #stringa='netzwelt_'
     max_index=len(lista)//200
-    for i in range(0,21):
+    if stringa=='wirtschaft_':
+        start=14
+    else:
+        start=0
+    for i in range(start,21):
         db_entries = []
         if i==1:
             for p in lista[(i-1)*200 :i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
@@ -197,7 +208,7 @@ def prepare_for_db(*lista): #take a list of links and from that it retrieve all 
 
 
 
-def saving():
+def saving(num, stringa):
     lista_sections=['forum/spiegel_forum_politik','forum/spiegel_forum_wirtschaft'
     ,'forum/spiegel_forum_panorama','forum/spiegel_forum_sport'
     ,'forum/spiegel_forum_kultur','forum/spiegel_forum_netzwelt'
@@ -205,10 +216,10 @@ def saving():
     ,'forum/spiegel_forum_karriere','forum/spiegel_forum_lebenundlernen'
     ,'forum/spiegel_forum_reise','forum/spiegel_forum_auto']
 
-    with open(lista_sections[6], 'rb') as file: #read saved article links from politik forum section
+    with open(lista_sections[num], 'rb') as file: #read saved article links from politik forum section
         lista = pickle.load(file)
     #print(lista[:10])
-    prepare_for_db(*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
+    prepare_for_db(stringa,*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
     print(len(lista))
 
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
@@ -224,12 +235,31 @@ def check_saved(file_name,max):     #to open a saved comments pickle file and co
     return l
 
 #at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
-saving()
-#p=check_saved('comments/politik_',44)
-#w=check_saved('comments/wirtschaft_',28)
-#s=check_saved('comments/sport_',21)
-#c=check_saved('comments/kultur_',21)
-#pa=check_saved('comments/panorama_',21)
-#n=check_saved('comments/netzwelt_',2)
+#saving(4,'kultur_')
+#saving(0,'politik_')
+saving(1,'wirtschaft_')
+saving(2,'panorama_')
+saving(3,'sport_')
+#saving(4,'kultur_')
+#saving(5,'netzwelt_')      #ok first 20 on April 7th
+#saving(6,'wissenschaft_')  #ok first 20 on April 7th
+saving(7,'gesundheit_')
+saving(8,'karriere_')
+saving(9,'lebenundlernen_')
+saving(10,'reise_')
+saving(11,'auto_')
 
-#print('total in comments/: '+ str(p+w+s+c+pa+n))
+
+def count_saved():
+    file_list=['comments/politik_','comments/wirtschaft_'
+    ,'comments/panorama_','comments/sport_'
+    ,'comments/kultur_','comments/netzwelt_'
+    ,'comments/wissenschaft_','comments/gesundheit_'
+    ,'comments/karriere_','comments/lebenundlernen_'
+    ,'comments/reise_','comments/auto_']
+    total=0
+    for i in file_list:
+        total+=check_saved(i,21)
+    print('total in comments/: '+ str(total))
+
+count_saved()
