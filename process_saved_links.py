@@ -169,8 +169,8 @@ def prepare_to_mongo(html_comment,link):
 def prepare_for_db(stringa,*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     #stringa='netzwelt_'
     max_index=len(lista)//200
-    if stringa=='wirtschaft_':
-        start=14
+    if stringa=='karriere_': # specify in case you stop in the middle just one saving process
+        start=17
     else:
         start=0
     for i in range(start,21):
@@ -224,7 +224,7 @@ def saving(num, stringa):
 
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
     l=0
-    for i in range(1,max):
+    for i in range(0,max):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
@@ -237,13 +237,13 @@ def check_saved(file_name,max):     #to open a saved comments pickle file and co
 #at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
 #saving(4,'kultur_')
 #saving(0,'politik_')
-saving(1,'wirtschaft_')
-saving(2,'panorama_')
-saving(3,'sport_')
+#saving(1,'wirtschaft_')
+#saving(2,'panorama_')
+#saving(3,'sport_')
 #saving(4,'kultur_')
 #saving(5,'netzwelt_')      #ok first 20 on April 7th
 #saving(6,'wissenschaft_')  #ok first 20 on April 7th
-saving(7,'gesundheit_')
+#saving(7,'gesundheit_')
 saving(8,'karriere_')
 saving(9,'lebenundlernen_')
 saving(10,'reise_')
