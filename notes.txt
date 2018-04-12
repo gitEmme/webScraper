@@ -1,49 +1,30 @@
-on 4th April 2018:
+on 12th April 2018:
 
-#comments in comments/politik_1:  11285
-#comments in comments/politik_2:  10262
-#comments in comments/politik_3:  11212
-#comments in comments/politik_4:  12953
-#comments in comments/politik_5:  12221
-#comments in comments/politik_6:  11783
-#comments in comments/politik_7:  12682
-#comments in comments/politik_8:  10481
-#comments in comments/politik_9:  13182
-#comments in comments/politik_10:  14045
-#comments in comments/politik_11:  14815
-#comments in comments/politik_12:  10727
-#comments in comments/politik_13:  12566
-#comments in comments/politik_14:  13736
-#comments in comments/politik_15:  12562
-#comments in comments/politik_16:  11371
-#comments in comments/politik_17:  13876
-#comments in comments/politik_18:  14684
-#comments in comments/politik_19:  16145
-#comments in comments/politik_20:  14453
-#comments in comments/politik_21:  15670
-#comments in comments/politik_22:  15815
-#comments in comments/politik_23:  15081
-#comments in comments/politik_24:  18151
-#comments in comments/politik_25:  16454
-#comments in comments/politik_26:  11125
-#comments in comments/politik_27:  13439
-#comments in comments/politik_28:  14822
-#comments in comments/politik_29:  19573
-#comments in comments/politik_30:  16321
-#comments in comments/politik_31:  15875
-#comments in comments/politik_32:  14121
-#comments in comments/politik_33:  16004
-#comments in comments/politik_34:  16274
-#comments in comments/politik_35:  14668
-#comments in comments/politik_36:  14057
-#comments in comments/politik_37:  13885
-#comments in comments/politik_38:  15658
-#comments in comments/politik_39:  16780
-
-Total comments/politik_ :548814
-
-#comments in comments/wirtschaft_1:  11290
-#comments in comments/wirtschaft_2:  10260
+#comments in comments/politik_0:  27229
+#comments in comments/politik_1:  10908
+#comments in comments/politik_2:  11541
+#comments in comments/politik_3:  13195
+#comments in comments/politik_4:  14581
+#comments in comments/politik_5:  12694
+#comments in comments/politik_6:  13592
+#comments in comments/politik_7:  11007
+#comments in comments/politik_8:  10824
+#comments in comments/politik_9:  11079
+#comments in comments/politik_10:  14973
+#comments in comments/politik_11:  11881
+#comments in comments/politik_12:  11783
+#comments in comments/politik_13:  9703
+#comments in comments/politik_14:  12431
+#comments in comments/politik_15:  12017
+#comments in comments/politik_16:  16043
+#comments in comments/politik_17:  16011
+#comments in comments/politik_18:  18591
+#comments in comments/politik_19:  18119
+#comments in comments/politik_20:  16523
+Total comments/politik_ :294725
+#comments in comments/wirtschaft_0:  9824
+#comments in comments/wirtschaft_1:  11286
+#comments in comments/wirtschaft_2:  10262
 #comments in comments/wirtschaft_3:  11212
 #comments in comments/wirtschaft_4:  12953
 #comments in comments/wirtschaft_5:  12221
@@ -52,27 +33,41 @@ Total comments/politik_ :548814
 #comments in comments/wirtschaft_8:  10481
 #comments in comments/wirtschaft_9:  13182
 #comments in comments/wirtschaft_10:  14045
-#comments in comments/wirtschaft_11:  14815
+#comments in comments/wirtschaft_11:  14817
 #comments in comments/wirtschaft_12:  10727
 #comments in comments/wirtschaft_13:  12566
 #comments in comments/wirtschaft_14:  13736
 #comments in comments/wirtschaft_15:  12689
-#comments in comments/wirtschaft_16:  11371
-#comments in comments/wirtschaft_17:  13876
-#comments in comments/wirtschaft_18:  14684
+#comments in comments/wirtschaft_16:  11352
+#comments in comments/wirtschaft_17:  13735
+#comments in comments/wirtschaft_18:  14674
 #comments in comments/wirtschaft_19:  16244
 #comments in comments/wirtschaft_20:  14453
-#comments in comments/wirtschaft_21:  15680
-#comments in comments/wirtschaft_22:  15815
-#comments in comments/wirtschaft_23:  15081
-#comments in comments/wirtschaft_24:  18151
-#comments in comments/wirtschaft_25:  16454
-#comments in comments/wirtschaft_26:  11125
-#comments in comments/wirtschaft_27:  13439
-
-Total comments/wirtschaft_ :361015
-
-#comments in comments/sport_1:  3180
+Total comments/wirtschaft_ :264924
+#comments in comments/panorama_0:  9622
+#comments in comments/panorama_1:  5320
+#comments in comments/panorama_2:  4835
+#comments in comments/panorama_3:  4316
+#comments in comments/panorama_4:  4064
+#comments in comments/panorama_5:  5688
+#comments in comments/panorama_6:  3800
+#comments in comments/panorama_7:  3373
+#comments in comments/panorama_8:  4650
+#comments in comments/panorama_9:  4623
+#comments in comments/panorama_10:  5187
+#comments in comments/panorama_11:  4693
+#comments in comments/panorama_12:  4316
+#comments in comments/panorama_13:  6112
+#comments in comments/panorama_14:  6200
+#comments in comments/panorama_15:  4758
+#comments in comments/panorama_16:  4961
+#comments in comments/panorama_17:  7292
+#comments in comments/panorama_18:  4794
+#comments in comments/panorama_19:  8078
+#comments in comments/panorama_20:  7558
+Total comments/panorama_ :114240
+#comments in comments/sport_0:  18224
+#comments in comments/sport_1:  3182
 #comments in comments/sport_2:  3349
 #comments in comments/sport_3:  2110
 #comments in comments/sport_4:  2911
@@ -92,10 +87,9 @@ Total comments/wirtschaft_ :361015
 #comments in comments/sport_18:  4245
 #comments in comments/sport_19:  3335
 #comments in comments/sport_20:  3382
-
-Total comments/sport_ :61768
-
-#comments in comments/kultur_1:  6318
+Total comments/sport_ :79994
+#comments in comments/kultur_0:  13816
+#comments in comments/kultur_1:  6303
 #comments in comments/kultur_2:  6786
 #comments in comments/kultur_3:  6532
 #comments in comments/kultur_4:  5392
@@ -107,7 +101,7 @@ Total comments/sport_ :61768
 #comments in comments/kultur_10:  9578
 #comments in comments/kultur_11:  7653
 #comments in comments/kultur_12:  5802
-#comments in comments/kultur_13:  4922
+#comments in comments/kultur_13:  5348
 #comments in comments/kultur_14:  8008
 #comments in comments/kultur_15:  7809
 #comments in comments/kultur_16:  11841
@@ -115,39 +109,121 @@ Total comments/sport_ :61768
 #comments in comments/kultur_18:  10112
 #comments in comments/kultur_19:  12071
 #comments in comments/kultur_20:  7479
+Total comments/kultur_ :176570
+#comments in comments/netzwelt_0:  7311
+#comments in comments/netzwelt_1:  5887
+#comments in comments/netzwelt_2:  6532
+#comments in comments/netzwelt_3:  6138
+#comments in comments/netzwelt_4:  8364
+#comments in comments/netzwelt_5:  7910
+#comments in comments/netzwelt_6:  8669
+#comments in comments/netzwelt_7:  9679
+#comments in comments/netzwelt_8:  8778
+#comments in comments/netzwelt_9:  6727
+#comments in comments/netzwelt_10:  6749
+#comments in comments/netzwelt_11:  6843
+#comments in comments/netzwelt_12:  5963
+#comments in comments/netzwelt_13:  8577
+#comments in comments/netzwelt_14:  7170
+#comments in comments/netzwelt_15:  7550
+#comments in comments/netzwelt_16:  9372
+#comments in comments/netzwelt_17:  10680
+#comments in comments/netzwelt_18:  8784
+#comments in comments/netzwelt_19:  7983
+#comments in comments/netzwelt_20:  7557
+Total comments/netzwelt_ :163223
+#comments in comments/wissenschaft_0:  9390
+#comments in comments/wissenschaft_1:  11584
+#comments in comments/wissenschaft_2:  13561
+#comments in comments/wissenschaft_3:  12450
+#comments in comments/wissenschaft_4:  12464
+#comments in comments/wissenschaft_5:  15241
+#comments in comments/wissenschaft_6:  15208
+#comments in comments/wissenschaft_7:  10781
+#comments in comments/wissenschaft_8:  15600
+#comments in comments/wissenschaft_9:  13457
+#comments in comments/wissenschaft_10:  11116
+#comments in comments/wissenschaft_11:  14627
+#comments in comments/wissenschaft_12:  10854
+#comments in comments/wissenschaft_13:  10855
+#comments in comments/wissenschaft_14:  7864
+#comments in comments/wissenschaft_15:  8169
+#comments in comments/wissenschaft_16:  7205
+#comments in comments/wissenschaft_17:  7539
+#comments in comments/wissenschaft_18:  6244
+#comments in comments/wissenschaft_19:  7764
+#comments in comments/wissenschaft_20:  7625
+Total comments/wissenschaft_ :229598
+#comments in comments/gesundheit_0:  5116
+#comments in comments/gesundheit_1:  8795
+#comments in comments/gesundheit_2:  9233
+#comments in comments/gesundheit_3:  8995
+#comments in comments/gesundheit_4:  9262
+#comments in comments/gesundheit_5:  9332
+#comments in comments/gesundheit_6:  10034
+#comments in comments/gesundheit_7:  11138
+#comments in comments/gesundheit_8:  10307
+#comments in comments/gesundheit_9:  10643
+#comments in comments/gesundheit_10:  9549
+#comments in comments/gesundheit_11:  8440
+#comments in comments/gesundheit_12:  7157
+#comments in comments/gesundheit_13:  7065
+#comments in comments/gesundheit_14:  7378
+#comments in comments/gesundheit_15:  8670
+#comments in comments/gesundheit_16:  10494
+#comments in comments/gesundheit_17:  8834
+#comments in comments/gesundheit_18:  8363
+#comments in comments/gesundheit_19:  7974
+#comments in comments/gesundheit_20:  6939
+Total comments/gesundheit_ :183718
+#comments in comments/karriere_0:  6031
+#comments in comments/karriere_1:  10136
+#comments in comments/karriere_2:  9188
+#comments in comments/karriere_3:  8647
+#comments in comments/karriere_4:  9703
+#comments in comments/karriere_5:  9432
+#comments in comments/karriere_6:  11980
+#comments in comments/karriere_7:  12144
+#comments in comments/karriere_8:  11515
+#comments in comments/karriere_9:  8508
+#comments in comments/karriere_10:  9360
+#comments in comments/karriere_11:  8587
+#comments in comments/karriere_12:  8544
+#comments in comments/karriere_13:  7191
+#comments in comments/karriere_14:  7332
+#comments in comments/karriere_15:  6930
+#comments in comments/karriere_16:  4651
+#comments in comments/karriere_17:  10307
+#comments in comments/karriere_18:  5224
+#comments in comments/karriere_19:  0 --> verify something could have gone wrong during writing in the files..
+#comments in comments/karriere_20:  0
+Total comments/karriere_ :165410
+#comments in comments/lebenundlernen_0:  51492
+#comments in comments/lebenundlernen_1:  12967
+#comments in comments/lebenundlernen_2:  13022
+#comments in comments/lebenundlernen_3:  11106
+#comments in comments/lebenundlernen_4:  12328
+#comments in comments/lebenundlernen_5:  13680
+#comments in comments/lebenundlernen_6:  13321
+#comments in comments/lebenundlernen_7:  18492
+#comments in comments/lebenundlernen_8:  13560
+#comments in comments/lebenundlernen_9:  12528
+#comments in comments/lebenundlernen_10:  12111
+#comments in comments/lebenundlernen_11:  12892
+#comments in comments/lebenundlernen_12:  12360
+#comments in comments/lebenundlernen_13:  15630
+#comments in comments/lebenundlernen_14:  12303
+#comments in comments/lebenundlernen_15:  17707
+#comments in comments/lebenundlernen_16:  11458
+#comments in comments/lebenundlernen_17:  12705
+#comments in comments/lebenundlernen_18:  10845
+#comments in comments/lebenundlernen_19:  8987
+#comments in comments/lebenundlernen_20:  7807
+Total comments/lebenundlernen_ :307301
 
-Total comments/kultur_ :162343
-
-#comments in comments/panorama_1:  5320
-#comments in comments/panorama_2:  4835
-#comments in comments/panorama_3:  4316
-#comments in comments/panorama_4:  4064
-#comments in comments/panorama_5:  5688
-#comments in comments/panorama_6:  3800
-#comments in comments/panorama_7:  3373
-#comments in comments/panorama_8:  4650
-#comments in comments/panorama_9:  4623
-#comments in comments/panorama_10:  5187
-#comments in comments/panorama_11:  4693
-#comments in comments/panorama_12:  4316
-#comments in comments/panorama_13:  6112
-#comments in comments/panorama_14:  6315
-#comments in comments/panorama_15:  4758
-#comments in comments/panorama_16:  5091
-#comments in comments/panorama_17:  7292
-#comments in comments/panorama_18:  4794
-#comments in comments/panorama_19:  8078
-#comments in comments/panorama_20:  7558
-
-Total comments/panorama_ :104863
-
-#comments in comments/netzwelt_1:  5890
-
-Total comments/netzwelt_ :5890
 
 
-
-total in comments/: 1333583
+total in comments/: 1979703
 
 links are scanned 200 in 200
 
