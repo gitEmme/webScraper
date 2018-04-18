@@ -1,4 +1,4 @@
-on 12th April 2018:
+on 18th April 2018:
 
 #comments in comments/politik_0:  27229
 #comments in comments/politik_1:  10908
@@ -195,7 +195,7 @@ Total comments/gesundheit_ :183718
 #comments in comments/karriere_16:  4651
 #comments in comments/karriere_17:  10307
 #comments in comments/karriere_18:  5224
-#comments in comments/karriere_19:  0 --> verify something could have gone wrong during writing in the files..
+#comments in comments/karriere_19:  0
 #comments in comments/karriere_20:  0
 Total comments/karriere_ :165410
 #comments in comments/lebenundlernen_0:  51492
@@ -220,10 +220,53 @@ Total comments/karriere_ :165410
 #comments in comments/lebenundlernen_19:  8987
 #comments in comments/lebenundlernen_20:  7807
 Total comments/lebenundlernen_ :307301
+#comments in comments/reise_0:  3259
+#comments in comments/reise_1:  3319
+#comments in comments/reise_2:  3610
+#comments in comments/reise_3:  5101
+#comments in comments/reise_4:  4658
+#comments in comments/reise_5:  3845
+#comments in comments/reise_6:  4319
+#comments in comments/reise_7:  4045
+#comments in comments/reise_8:  5375
+#comments in comments/reise_9:  6446
+#comments in comments/reise_10:  3372
+#comments in comments/reise_11:  4948
+#comments in comments/reise_12:  5091
+#comments in comments/reise_13:  4128
+#comments in comments/reise_14:  3907
+#comments in comments/reise_15:  3500
+#comments in comments/reise_16:  3105
+#comments in comments/reise_17:  4784
+#comments in comments/reise_18:  3415
+#comments in comments/reise_19:  3461
+#comments in comments/reise_20:  2341
+Total comments/reise_ :86029
+#comments in comments/auto_0:  9208
+#comments in comments/auto_1:  21961
+#comments in comments/auto_2:  20289
+#comments in comments/auto_3:  25009
+#comments in comments/auto_4:  18498
+#comments in comments/auto_5:  20766
+#comments in comments/auto_6:  19946
+#comments in comments/auto_7:  24902
+#comments in comments/auto_8:  20049
+#comments in comments/auto_9:  20677
+#comments in comments/auto_10:  14859
+#comments in comments/auto_11:  14422
+#comments in comments/auto_12:  11497
+#comments in comments/auto_13:  14305
+#comments in comments/auto_14:  14141
+#comments in comments/auto_15:  16379
+#comments in comments/auto_16:  16754
+#comments in comments/auto_17:  14631
+#comments in comments/auto_18:  17098
+#comments in comments/auto_19:  15543
+#comments in comments/auto_20:  14494
+Total comments/auto_ :365428
 
 
-
-total in comments/: 1979703
+total in comments/: 2431160
 
 links are scanned 200 in 200
 

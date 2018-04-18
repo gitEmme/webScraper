@@ -74,9 +74,11 @@ def get_comments_box(address):
 
 ####################### the following get functions are used to retrieve info from the html of extracted comments #############
 def fix_links(element):
-    t=re.search(r'(?<=href=").*?(?=")',element)
+    t=re.findall(r'(?<=href=").*?(?=")',element)
     if(t):
-        element=re.sub(r'<a href.*?</a>',t.group(),element)
+        if(element):
+            for i in t:
+                element=re.sub(r'<a href=".*?</a>', i, element, count=1)
     return element
 def get_post_id(html_comment):
     postid=re.findall(r'id="(postbit.*)">',html_comment)[0] #this way the postid is returned inside a list
@@ -116,7 +118,7 @@ def get_c_body(html_comment):
             stringa=re.sub(r'\n',r' ',stringa)  #remove empty lines and sub with a space
             stringa=re.sub(r'</?q>',r' ',stringa) #remove quotes tag and sub with  space
             stringa=re.sub(r'&amp;',r'&',stringa) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
-            stringa=fix_links(stringa)
+            #stringa=fix_links(stringa)
             comment=comment+stringa
     return comment
 
@@ -161,16 +163,16 @@ def prepare_to_mongo(html_comment,link):
     map['time']=get_time(html_comment)
     map['forum_link']=link
     map['quotes']=get_quote(html_comment)
-    for e in map.keys():
-        print(e,map[e])
+    #for e in map.keys():
+        #print(e,map[e])
     return map
 
 #################### the following are used to contruct lists of comments with related info and save them into pickle files ######
 def prepare_for_db(stringa,*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     #stringa='netzwelt_'
     max_index=len(lista)//200
-    if stringa=='karriere_': # specify in case you stop in the middle just one saving process
-        start=17
+    if stringa=='auto_': # specify in case you stop in the middle just one saving process
+        start=11
     else:
         start=0
     for i in range(start,21):
@@ -220,7 +222,7 @@ def saving(num, stringa):
         lista = pickle.load(file)
     #print(lista[:10])
     prepare_for_db(stringa,*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
-    print(len(lista))
+    print('numero links '+str(len(lista)))
 
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
     l=0
@@ -244,10 +246,10 @@ def check_saved(file_name,max):     #to open a saved comments pickle file and co
 #saving(5,'netzwelt_')      #ok first 20 on April 7th
 #saving(6,'wissenschaft_')  #ok first 20 on April 7th
 #saving(7,'gesundheit_')
-saving(8,'karriere_')
-saving(9,'lebenundlernen_')
-saving(10,'reise_')
-saving(11,'auto_')
+#saving(8,'karriere_')
+#saving(9,'lebenundlernen_')
+#saving(10,'reise_')
+#saving(11,'auto_')
 
 
 def count_saved():
