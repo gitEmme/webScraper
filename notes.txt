@@ -1,6 +1,5 @@
 on 18th April 2018:
 
-#comments in comments/politik_0:  27229
 #comments in comments/politik_1:  10908
 #comments in comments/politik_2:  11541
 #comments in comments/politik_3:  13195
@@ -21,8 +20,7 @@ on 18th April 2018:
 #comments in comments/politik_18:  18591
 #comments in comments/politik_19:  18119
 #comments in comments/politik_20:  16523
-Total comments/politik_ :294725
-#comments in comments/wirtschaft_0:  9824
+Total comments/politik_ :267496
 #comments in comments/wirtschaft_1:  11286
 #comments in comments/wirtschaft_2:  10262
 #comments in comments/wirtschaft_3:  11212
@@ -43,8 +41,7 @@ Total comments/politik_ :294725
 #comments in comments/wirtschaft_18:  14674
 #comments in comments/wirtschaft_19:  16244
 #comments in comments/wirtschaft_20:  14453
-Total comments/wirtschaft_ :264924
-#comments in comments/panorama_0:  9622
+Total comments/wirtschaft_ :255100
 #comments in comments/panorama_1:  5320
 #comments in comments/panorama_2:  4835
 #comments in comments/panorama_3:  4316
@@ -65,8 +62,7 @@ Total comments/wirtschaft_ :264924
 #comments in comments/panorama_18:  4794
 #comments in comments/panorama_19:  8078
 #comments in comments/panorama_20:  7558
-Total comments/panorama_ :114240
-#comments in comments/sport_0:  18224
+Total comments/panorama_ :104618
 #comments in comments/sport_1:  3182
 #comments in comments/sport_2:  3349
 #comments in comments/sport_3:  2110
@@ -87,8 +83,7 @@ Total comments/panorama_ :114240
 #comments in comments/sport_18:  4245
 #comments in comments/sport_19:  3335
 #comments in comments/sport_20:  3382
-Total comments/sport_ :79994
-#comments in comments/kultur_0:  13816
+Total comments/sport_ :61770
 #comments in comments/kultur_1:  6303
 #comments in comments/kultur_2:  6786
 #comments in comments/kultur_3:  6532
@@ -109,8 +104,7 @@ Total comments/sport_ :79994
 #comments in comments/kultur_18:  10112
 #comments in comments/kultur_19:  12071
 #comments in comments/kultur_20:  7479
-Total comments/kultur_ :176570
-#comments in comments/netzwelt_0:  7311
+Total comments/kultur_ :162754
 #comments in comments/netzwelt_1:  5887
 #comments in comments/netzwelt_2:  6532
 #comments in comments/netzwelt_3:  6138
@@ -131,8 +125,7 @@ Total comments/kultur_ :176570
 #comments in comments/netzwelt_18:  8784
 #comments in comments/netzwelt_19:  7983
 #comments in comments/netzwelt_20:  7557
-Total comments/netzwelt_ :163223
-#comments in comments/wissenschaft_0:  9390
+Total comments/netzwelt_ :155912
 #comments in comments/wissenschaft_1:  11584
 #comments in comments/wissenschaft_2:  13561
 #comments in comments/wissenschaft_3:  12450
@@ -153,8 +146,7 @@ Total comments/netzwelt_ :163223
 #comments in comments/wissenschaft_18:  6244
 #comments in comments/wissenschaft_19:  7764
 #comments in comments/wissenschaft_20:  7625
-Total comments/wissenschaft_ :229598
-#comments in comments/gesundheit_0:  5116
+Total comments/wissenschaft_ :220208
 #comments in comments/gesundheit_1:  8795
 #comments in comments/gesundheit_2:  9233
 #comments in comments/gesundheit_3:  8995
@@ -175,13 +167,12 @@ Total comments/wissenschaft_ :229598
 #comments in comments/gesundheit_18:  8363
 #comments in comments/gesundheit_19:  7974
 #comments in comments/gesundheit_20:  6939
-Total comments/gesundheit_ :183718
-#comments in comments/karriere_0:  6031
-#comments in comments/karriere_1:  10136
+Total comments/gesundheit_ :178602
+#comments in comments/karriere_1:  10137
 #comments in comments/karriere_2:  9188
 #comments in comments/karriere_3:  8647
 #comments in comments/karriere_4:  9703
-#comments in comments/karriere_5:  9432
+#comments in comments/karriere_5:  9487
 #comments in comments/karriere_6:  11980
 #comments in comments/karriere_7:  12144
 #comments in comments/karriere_8:  11515
@@ -195,10 +186,7 @@ Total comments/gesundheit_ :183718
 #comments in comments/karriere_16:  4651
 #comments in comments/karriere_17:  10307
 #comments in comments/karriere_18:  5224
-#comments in comments/karriere_19:  0
-#comments in comments/karriere_20:  0
-Total comments/karriere_ :165410
-#comments in comments/lebenundlernen_0:  51492
+Total comments/karriere_ :159435
 #comments in comments/lebenundlernen_1:  12967
 #comments in comments/lebenundlernen_2:  13022
 #comments in comments/lebenundlernen_3:  11106
@@ -219,8 +207,7 @@ Total comments/karriere_ :165410
 #comments in comments/lebenundlernen_18:  10845
 #comments in comments/lebenundlernen_19:  8987
 #comments in comments/lebenundlernen_20:  7807
-Total comments/lebenundlernen_ :307301
-#comments in comments/reise_0:  3259
+Total comments/lebenundlernen_ :255809
 #comments in comments/reise_1:  3319
 #comments in comments/reise_2:  3610
 #comments in comments/reise_3:  5101
@@ -241,8 +228,7 @@ Total comments/lebenundlernen_ :307301
 #comments in comments/reise_18:  3415
 #comments in comments/reise_19:  3461
 #comments in comments/reise_20:  2341
-Total comments/reise_ :86029
-#comments in comments/auto_0:  9208
+Total comments/reise_ :82770
 #comments in comments/auto_1:  21961
 #comments in comments/auto_2:  20289
 #comments in comments/auto_3:  25009
@@ -263,10 +249,10 @@ Total comments/reise_ :86029
 #comments in comments/auto_18:  17098
 #comments in comments/auto_19:  15543
 #comments in comments/auto_20:  14494
-Total comments/auto_ :365428
+Total comments/auto_ :356220
 
 
-total in comments/: 2431160
+total in comments/: 2260694
 
 links are scanned 200 in 200
 
@@ -274,4 +260,6 @@ Most of the Links have not been scanned yet
 
 Scanning started on 20th March... comments to new articles in the Forum section (after 20th March) are not considered
 
+All collected links in section 'karriere' ( 3580 links ) are been scanned
 
+All collected comments are been stripped to remove repeating white spaces

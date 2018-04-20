@@ -3,6 +3,7 @@ import requests
 import re
 from bs4 import BeautifulSoup
 from datetime import date,timedelta
+import pprint
 
 ############################# the following  look for links in a spiegel's html page, under a specified html class tag, reconstructing the absolute url if necessary ########################
 ############################# catching connection exceptions because sometimes the comment space under an article can be closed, starting at a certain day  #################################
@@ -171,11 +172,16 @@ def prepare_to_mongo(html_comment,link):
 def prepare_for_db(stringa,*lista): #take a list of links and from that it retrieve all comments and put in a ready form for the db
     #stringa='netzwelt_'
     max_index=len(lista)//200
-    if stringa=='auto_': # specify in case you stop in the middle just one saving process
-        start=11
+    print(max_index)
+    if max_index>40:
+        max_index=30
+    if stringa=='karriere_': # specify in case you stop in the middle just one saving process
+        start=19
+        end=max_index+1
     else:
-        start=0
-    for i in range(start,21):
+        start=21
+        end=max_index+1
+    for i in range(start,end):
         db_entries = []
         if i==1:
             for p in lista[(i-1)*200 :i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
@@ -208,8 +214,6 @@ def prepare_for_db(stringa,*lista): #take a list of links and from that it retri
                 pickle.dump(db_entries, coll)
             coll.close()
 
-
-
 def saving(num, stringa):
     lista_sections=['forum/spiegel_forum_politik','forum/spiegel_forum_wirtschaft'
     ,'forum/spiegel_forum_panorama','forum/spiegel_forum_sport'
@@ -224,33 +228,61 @@ def saving(num, stringa):
     prepare_for_db(stringa,*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
     print('numero links '+str(len(lista)))
 
+def correct_links(element):
+    t=re.findall(r'(?<=href=").*?(?=")',element)
+    if(t):
+        #print('PRIMA \n'+element)
+        if(element):
+            for i in t:
+                element=re.sub(r'<?a href=".*?<?/a>?', i+' ', element, count=1)
+                #print(t)
+                #print('dopo')
+                #print(element)
+    return element
+
+def strip_body():
+    file_list=['comments/politik_','comments/wirtschaft_'
+        ,'comments/panorama_','comments/sport_'
+        ,'comments/kultur_','comments/netzwelt_'
+        ,'comments/wissenschaft_','comments/gesundheit_'
+        ,'comments/karriere_','comments/lebenundlernen_'
+        ,'comments/reise_','comments/auto_']
+    for i in file_list[8:]:
+        if(i=='comments/karriere_'):
+            max=19
+        else:
+            max=21
+        for j in range(1,max):
+            with open(i+str(j),'rb') as fp:
+                read=pickle.load(fp)
+            fp.close()
+            temp=[]
+            for item in read:
+                body=item['body']
+                body=correct_links(body)
+                body = re.sub(r'<b?r?/?>', r'', body)
+                body = re.sub(r'\n', r' ', body)
+                body = re.sub(r'</?q>', r'', body)
+                body = re.sub(r'&amp;', r'&', body)
+                body=' '.join(x.strip() for x in body.split())
+                #print(body)
+                item['body']=body
+                temp.append(item)
+                #print(temp)
+            print('WRITING ON '+i +str(j))
+            with open(i+str(j),'wb') as fp:
+                pickle.dump(temp, fp)
+
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
     l=0
-    for i in range(0,max):
+    for i in range(1,max):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
-        #print(read[:3])
         print('#comments in '+file_name+str(i)+': ',len(read))
         l+=len(read)
     print('Total '+ file_name+' :'+str(l))
     return l
-
-#at the moment saving comments from section wirstchaft : links in lista_sections[1] politik to be saved again...
-#saving(4,'kultur_')
-#saving(0,'politik_')
-#saving(1,'wirtschaft_')
-#saving(2,'panorama_')
-#saving(3,'sport_')
-#saving(4,'kultur_')
-#saving(5,'netzwelt_')      #ok first 20 on April 7th
-#saving(6,'wissenschaft_')  #ok first 20 on April 7th
-#saving(7,'gesundheit_')
-#saving(8,'karriere_')
-#saving(9,'lebenundlernen_')
-#saving(10,'reise_')
-#saving(11,'auto_')
-
 
 def count_saved():
     file_list=['comments/politik_','comments/wirtschaft_'
@@ -261,7 +293,27 @@ def count_saved():
     ,'comments/reise_','comments/auto_']
     total=0
     for i in file_list:
-        total+=check_saved(i,21)
+        if(i=='comments/karriere_'):
+            max=19
+        else:
+            max=21
+        total+=check_saved(i,max)
     print('total in comments/: '+ str(total))
 
+
+saving(4,'kultur_')
+saving(0,'politik_')
+saving(1,'wirtschaft_')
+saving(2,'panorama_')
+saving(3,'sport_')
+saving(4,'kultur_')
+saving(5,'netzwelt_')      #ok first 20 on April 7th
+saving(6,'wissenschaft_')  #ok first 20 on April 7th
+saving(7,'gesundheit_')
+#saving(8,'karriere_')
+saving(9,'lebenundlernen_')
+saving(10,'reise_')
+saving(11,'auto_')
+
+#strip_body()
 count_saved()
