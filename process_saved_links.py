@@ -175,8 +175,8 @@ def prepare_for_db(stringa,*lista): #take a list of links and from that it retri
     print(max_index)
     if max_index>40:
         max_index=30
-    if stringa=='karriere_': # specify in case you stop in the middle just one saving process
-        start=19
+    if stringa=='wirtschaft_': # specify in case you stop in the middle just one saving process
+        start=24
         end=max_index+1
     else:
         start=21
@@ -193,7 +193,7 @@ def prepare_for_db(stringa,*lista): #take a list of links and from that it retri
             with open('comments/' + stringa + str(i),'wb') as coll:  # save comments ready to push in a db in a pickle file
                 pickle.dump(db_entries, coll)
             coll.close()
-        elif 1<i<max_index:
+        elif 1<i<max_index+1:
             for p in lista[(i-1)*200 + 1:i * 200 + 1]:  # links to articles' forum are scanned 200 in 200 not to exceed maximum list size
                 all_comments = get_comments_box(p)
                 for c in all_comments:
@@ -245,14 +245,14 @@ def strip_body():
         ,'comments/panorama_','comments/sport_'
         ,'comments/kultur_','comments/netzwelt_'
         ,'comments/wissenschaft_','comments/gesundheit_'
-        ,'comments/karriere_','comments/lebenundlernen_'
+        ,'comments/lebenundlernen_' #,'comments/karriere_'  removed from stripping because all files are already been retrieved
         ,'comments/reise_','comments/auto_']
     for i in file_list[8:]:
         if(i=='comments/karriere_'):
             max=19
         else:
-            max=21
-        for j in range(1,max):
+            max=31
+        for j in range(21,max):
             with open(i+str(j),'rb') as fp:
                 read=pickle.load(fp)
             fp.close()
@@ -300,15 +300,13 @@ def count_saved():
         total+=check_saved(i,max)
     print('total in comments/: '+ str(total))
 
-
-saving(4,'kultur_')
-saving(0,'politik_')
-saving(1,'wirtschaft_')
-saving(2,'panorama_')
-saving(3,'sport_')
-saving(4,'kultur_')
-saving(5,'netzwelt_')      #ok first 20 on April 7th
-saving(6,'wissenschaft_')  #ok first 20 on April 7th
+#saving(0,'politik_')
+#saving(1,'wirtschaft_')
+#saving(2,'panorama_')
+#saving(3,'sport_')
+#saving(4,'kultur_')
+saving(5,'netzwelt_')
+saving(6,'wissenschaft_')
 saving(7,'gesundheit_')
 #saving(8,'karriere_')
 saving(9,'lebenundlernen_')
