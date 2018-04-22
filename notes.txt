@@ -1,4 +1,4 @@
-on 18th April 2018:
+on 22nd April 2018:
 
 #comments in comments/politik_1:  10908
 #comments in comments/politik_2:  11541
@@ -20,7 +20,17 @@ on 18th April 2018:
 #comments in comments/politik_18:  18591
 #comments in comments/politik_19:  18119
 #comments in comments/politik_20:  16523
-Total comments/politik_ :267496
+#comments in comments/politik_21:  21500
+#comments in comments/politik_22:  17160
+#comments in comments/politik_23:  14177
+#comments in comments/politik_24:  16580
+#comments in comments/politik_25:  16382
+#comments in comments/politik_26:  15338
+#comments in comments/politik_27:  16058
+#comments in comments/politik_28:  14312
+#comments in comments/politik_29:  17852
+#comments in comments/politik_30:  17195
+Total comments/politik_ :434050
 #comments in comments/wirtschaft_1:  11286
 #comments in comments/wirtschaft_2:  10262
 #comments in comments/wirtschaft_3:  11212
@@ -41,7 +51,17 @@ Total comments/politik_ :267496
 #comments in comments/wirtschaft_18:  14674
 #comments in comments/wirtschaft_19:  16244
 #comments in comments/wirtschaft_20:  14453
-Total comments/wirtschaft_ :255100
+#comments in comments/wirtschaft_21:  15680
+#comments in comments/wirtschaft_22:  15815
+#comments in comments/wirtschaft_23:  15081
+#comments in comments/wirtschaft_24:  18152
+#comments in comments/wirtschaft_25:  16454
+#comments in comments/wirtschaft_26:  11125
+#comments in comments/wirtschaft_27:  13439
+#comments in comments/wirtschaft_28:  14822
+#comments in comments/wirtschaft_29:  19573
+#comments in comments/wirtschaft_30:  16321
+Total comments/wirtschaft_ :411562
 #comments in comments/panorama_1:  5320
 #comments in comments/panorama_2:  4835
 #comments in comments/panorama_3:  4316
@@ -62,7 +82,17 @@ Total comments/wirtschaft_ :255100
 #comments in comments/panorama_18:  4794
 #comments in comments/panorama_19:  8078
 #comments in comments/panorama_20:  7558
-Total comments/panorama_ :104618
+#comments in comments/panorama_21:  6492
+#comments in comments/panorama_22:  5714
+#comments in comments/panorama_23:  11478
+#comments in comments/panorama_24:  3600
+#comments in comments/panorama_25:  5407
+#comments in comments/panorama_26:  5825
+#comments in comments/panorama_27:  6989
+#comments in comments/panorama_28:  4517
+#comments in comments/panorama_29:  6651
+#comments in comments/panorama_30:  6300
+Total comments/panorama_ :167591
 #comments in comments/sport_1:  3182
 #comments in comments/sport_2:  3349
 #comments in comments/sport_3:  2110
@@ -83,7 +113,17 @@ Total comments/panorama_ :104618
 #comments in comments/sport_18:  4245
 #comments in comments/sport_19:  3335
 #comments in comments/sport_20:  3382
-Total comments/sport_ :61770
+#comments in comments/sport_21:  3371
+#comments in comments/sport_22:  3413
+#comments in comments/sport_23:  2980
+#comments in comments/sport_24:  4243
+#comments in comments/sport_25:  2825
+#comments in comments/sport_26:  2615
+#comments in comments/sport_27:  3998
+#comments in comments/sport_28:  3681
+#comments in comments/sport_29:  2623
+#comments in comments/sport_30:  2926
+Total comments/sport_ :94445
 #comments in comments/kultur_1:  6303
 #comments in comments/kultur_2:  6786
 #comments in comments/kultur_3:  6532
@@ -104,7 +144,17 @@ Total comments/sport_ :61770
 #comments in comments/kultur_18:  10112
 #comments in comments/kultur_19:  12071
 #comments in comments/kultur_20:  7479
-Total comments/kultur_ :162754
+#comments in comments/kultur_21:  7422
+#comments in comments/kultur_22:  8669
+#comments in comments/kultur_23:  7112
+#comments in comments/kultur_24:  7871
+#comments in comments/kultur_25:  8379
+#comments in comments/kultur_26:  6493
+#comments in comments/kultur_27:  8948
+#comments in comments/kultur_28:  5474
+#comments in comments/kultur_29:  10098
+#comments in comments/kultur_30:  6149
+Total comments/kultur_ :239369
 #comments in comments/netzwelt_1:  5887
 #comments in comments/netzwelt_2:  6532
 #comments in comments/netzwelt_3:  6138
@@ -125,7 +175,17 @@ Total comments/kultur_ :162754
 #comments in comments/netzwelt_18:  8784
 #comments in comments/netzwelt_19:  7983
 #comments in comments/netzwelt_20:  7557
-Total comments/netzwelt_ :155912
+#comments in comments/netzwelt_21:  6860
+#comments in comments/netzwelt_22:  4331
+#comments in comments/netzwelt_23:  5178
+#comments in comments/netzwelt_24:  5340
+#comments in comments/netzwelt_25:  5899
+#comments in comments/netzwelt_26:  6012
+#comments in comments/netzwelt_27:  5997
+#comments in comments/netzwelt_28:  5038
+#comments in comments/netzwelt_29:  6561
+#comments in comments/netzwelt_30:  7425
+Total comments/netzwelt_ :214553
 #comments in comments/wissenschaft_1:  11584
 #comments in comments/wissenschaft_2:  13561
 #comments in comments/wissenschaft_3:  12450
@@ -146,7 +206,10 @@ Total comments/netzwelt_ :155912
 #comments in comments/wissenschaft_18:  6244
 #comments in comments/wissenschaft_19:  7764
 #comments in comments/wissenschaft_20:  7625
-Total comments/wissenschaft_ :220208
+#comments in comments/wissenschaft_21:  9521
+#comments in comments/wissenschaft_22:  6771
+#comments in comments/wissenschaft_23:  7711
+Total comments/wissenschaft_ :244211
 #comments in comments/gesundheit_1:  8795
 #comments in comments/gesundheit_2:  9233
 #comments in comments/gesundheit_3:  8995
@@ -251,8 +314,7 @@ Total comments/reise_ :82770
 #comments in comments/auto_20:  14494
 Total comments/auto_ :356220
 
-
-total in comments/: 2260694
+total in comments/: 2838617
 
 links are scanned 200 in 200
 
@@ -262,4 +324,4 @@ Scanning started on 20th March... comments to new articles in the Forum section 
 
 All collected links in section 'karriere' ( 3580 links ) are been scanned
 
-All collected comments are been stripped to remove repeating white spaces
+All collected comments file _1 - _20 have been stripped to remove repeating white spaces --> from _20 on to do!!!
