@@ -312,12 +312,12 @@ def count_saved():
 #saving(3,'sport_')
 #saving(4,'kultur_')
 #saving(5,'netzwelt_')
-#saving(6,'wissenschaft_') #START FROM HERE
-#saving(7,'gesundheit_')
+#saving(6,'wissenschaft_')
+#saving(7,'gesundheit_') #START FROM HERE
 #saving(8,'karriere_')
 #saving(9,'lebenundlernen_')
 #saving(10,'reise_')
-#saving(11,'auto_')
+saving(11,'auto_')
 
 #strip_body()
-count_saved()
+#count_saved()
