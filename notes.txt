@@ -230,7 +230,9 @@ Total comments/wissenschaft_ :244211
 #comments in comments/gesundheit_18:  8363
 #comments in comments/gesundheit_19:  7974
 #comments in comments/gesundheit_20:  6939
-Total comments/gesundheit_ :178602
+#comments in comments/gesundheit_21:  6185
+#comments in comments/gesundheit_22:  5116
+Total comments/gesundheit_ :189903
 #comments in comments/karriere_1:  10137
 #comments in comments/karriere_2:  9188
 #comments in comments/karriere_3:  8647
@@ -270,7 +272,16 @@ Total comments/karriere_ :159435
 #comments in comments/lebenundlernen_18:  10845
 #comments in comments/lebenundlernen_19:  8987
 #comments in comments/lebenundlernen_20:  7807
-Total comments/lebenundlernen_ :255809
+#comments in comments/lebenundlernen_21:  7865
+#comments in comments/lebenundlernen_22:  9429
+#comments in comments/lebenundlernen_23:  20715
+#comments in comments/lebenundlernen_24:  17790
+#comments in comments/lebenundlernen_25:  23207
+#comments in comments/lebenundlernen_26:  28056
+#comments in comments/lebenundlernen_27:  16482
+#comments in comments/lebenundlernen_28:  15952
+#comments in comments/lebenundlernen_29:  38180
+Total comments/lebenundlernen_ :433485
 #comments in comments/reise_1:  3319
 #comments in comments/reise_2:  3610
 #comments in comments/reise_3:  5101
@@ -291,7 +302,17 @@ Total comments/lebenundlernen_ :255809
 #comments in comments/reise_18:  3415
 #comments in comments/reise_19:  3461
 #comments in comments/reise_20:  2341
-Total comments/reise_ :82770
+#comments in comments/reise_21:  2368
+#comments in comments/reise_22:  4169
+#comments in comments/reise_23:  2253
+#comments in comments/reise_24:  2740
+#comments in comments/reise_25:  2029
+#comments in comments/reise_26:  2414
+#comments in comments/reise_27:  2263
+#comments in comments/reise_28:  2251
+#comments in comments/reise_29:  5430
+#comments in comments/reise_30:  3311
+Total comments/reise_ :111998
 #comments in comments/auto_1:  21961
 #comments in comments/auto_2:  20289
 #comments in comments/auto_3:  25009
@@ -312,9 +333,17 @@ Total comments/reise_ :82770
 #comments in comments/auto_18:  17098
 #comments in comments/auto_19:  15543
 #comments in comments/auto_20:  14494
-Total comments/auto_ :356220
+#comments in comments/auto_21:  8467
+#comments in comments/auto_22:  9132
+#comments in comments/auto_23:  11933
+#comments in comments/auto_24:  9373
+#comments in comments/auto_25:  8820
+#comments in comments/auto_26:  6690
+#comments in comments/auto_27:  7220
+#comments in comments/auto_28:  6112
+Total comments/auto_ :423967
 
-total in comments/: 2838617
+total in comments/: 3124569
 
 links are scanned 200 in 200
 
