@@ -175,7 +175,7 @@ def prepare_for_db(stringa,*lista): #take a list of links and from that it retri
     print(max_index)
     if max_index>40:
         max_index=30
-    if stringa=='wirtschaft_': # specify in case you stop in the middle just one saving process
+    if stringa=='wissenschaft_': # specify in case you stop in the middle just one saving process
         start=24
         end=max_index+1
     else:
@@ -295,8 +295,14 @@ def count_saved():
     for i in file_list:
         if(i=='comments/karriere_'):
             max=19
-        else:
+        elif (i in ['comments/gesundheit_'
+            ,'comments/karriere_','comments/lebenundlernen_'
+            ,'comments/reise_','comments/auto_']):
             max=21
+        elif (i=='comments/wissenschaft_'):
+            max=24
+        else:
+            max=31
         total+=check_saved(i,max)
     print('total in comments/: '+ str(total))
 
@@ -305,13 +311,13 @@ def count_saved():
 #saving(2,'panorama_')
 #saving(3,'sport_')
 #saving(4,'kultur_')
-saving(5,'netzwelt_')
-saving(6,'wissenschaft_')
-saving(7,'gesundheit_')
+#saving(5,'netzwelt_')
+#saving(6,'wissenschaft_') #START FROM HERE
+#saving(7,'gesundheit_')
 #saving(8,'karriere_')
-saving(9,'lebenundlernen_')
-saving(10,'reise_')
-saving(11,'auto_')
+#saving(9,'lebenundlernen_')
+#saving(10,'reise_')
+#saving(11,'auto_')
 
 #strip_body()
 count_saved()
