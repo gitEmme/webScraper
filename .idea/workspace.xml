@@ -2,7 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb71720e-b79a-416f-a93b-d4a5387f6ca5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_21" afterPath="$PROJECT_DIR$/comments/auto_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_22" afterPath="$PROJECT_DIR$/comments/auto_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_23" afterPath="$PROJECT_DIR$/comments/auto_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_24" afterPath="$PROJECT_DIR$/comments/auto_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_21" afterPath="$PROJECT_DIR$/comments/gesundheit_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_22" afterPath="$PROJECT_DIR$/comments/gesundheit_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_21" afterPath="$PROJECT_DIR$/comments/kultur_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_22" afterPath="$PROJECT_DIR$/comments/kultur_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_23" afterPath="$PROJECT_DIR$/comments/kultur_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_24" afterPath="$PROJECT_DIR$/comments/kultur_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_25" afterPath="$PROJECT_DIR$/comments/kultur_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_26" afterPath="$PROJECT_DIR$/comments/kultur_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_27" afterPath="$PROJECT_DIR$/comments/kultur_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_28" afterPath="$PROJECT_DIR$/comments/kultur_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_29" afterPath="$PROJECT_DIR$/comments/kultur_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_30" afterPath="$PROJECT_DIR$/comments/kultur_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_21" afterPath="$PROJECT_DIR$/comments/lebenundlernen_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_22" afterPath="$PROJECT_DIR$/comments/lebenundlernen_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_23" afterPath="$PROJECT_DIR$/comments/lebenundlernen_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_24" afterPath="$PROJECT_DIR$/comments/lebenundlernen_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_25" afterPath="$PROJECT_DIR$/comments/lebenundlernen_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_26" afterPath="$PROJECT_DIR$/comments/lebenundlernen_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_27" afterPath="$PROJECT_DIR$/comments/lebenundlernen_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_28" afterPath="$PROJECT_DIR$/comments/lebenundlernen_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_29" afterPath="$PROJECT_DIR$/comments/lebenundlernen_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_21" afterPath="$PROJECT_DIR$/comments/netzwelt_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_22" afterPath="$PROJECT_DIR$/comments/netzwelt_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_23" afterPath="$PROJECT_DIR$/comments/netzwelt_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_24" afterPath="$PROJECT_DIR$/comments/netzwelt_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_25" afterPath="$PROJECT_DIR$/comments/netzwelt_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_26" afterPath="$PROJECT_DIR$/comments/netzwelt_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_27" afterPath="$PROJECT_DIR$/comments/netzwelt_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_28" afterPath="$PROJECT_DIR$/comments/netzwelt_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_29" afterPath="$PROJECT_DIR$/comments/netzwelt_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_30" afterPath="$PROJECT_DIR$/comments/netzwelt_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_21" afterPath="$PROJECT_DIR$/comments/panorama_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_22" afterPath="$PROJECT_DIR$/comments/panorama_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_23" afterPath="$PROJECT_DIR$/comments/panorama_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_24" afterPath="$PROJECT_DIR$/comments/panorama_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_25" afterPath="$PROJECT_DIR$/comments/panorama_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_26" afterPath="$PROJECT_DIR$/comments/panorama_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_27" afterPath="$PROJECT_DIR$/comments/panorama_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_28" afterPath="$PROJECT_DIR$/comments/panorama_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_29" afterPath="$PROJECT_DIR$/comments/panorama_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_30" afterPath="$PROJECT_DIR$/comments/panorama_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_21" afterPath="$PROJECT_DIR$/comments/politik_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_22" afterPath="$PROJECT_DIR$/comments/politik_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_23" afterPath="$PROJECT_DIR$/comments/politik_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_24" afterPath="$PROJECT_DIR$/comments/politik_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_25" afterPath="$PROJECT_DIR$/comments/politik_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_26" afterPath="$PROJECT_DIR$/comments/politik_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_27" afterPath="$PROJECT_DIR$/comments/politik_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_28" afterPath="$PROJECT_DIR$/comments/politik_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_29" afterPath="$PROJECT_DIR$/comments/politik_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_30" afterPath="$PROJECT_DIR$/comments/politik_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_21" afterPath="$PROJECT_DIR$/comments/reise_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_22" afterPath="$PROJECT_DIR$/comments/reise_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_23" afterPath="$PROJECT_DIR$/comments/reise_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_24" afterPath="$PROJECT_DIR$/comments/reise_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_25" afterPath="$PROJECT_DIR$/comments/reise_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_26" afterPath="$PROJECT_DIR$/comments/reise_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_27" afterPath="$PROJECT_DIR$/comments/reise_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_28" afterPath="$PROJECT_DIR$/comments/reise_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_29" afterPath="$PROJECT_DIR$/comments/reise_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_30" afterPath="$PROJECT_DIR$/comments/reise_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_21" afterPath="$PROJECT_DIR$/comments/sport_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_22" afterPath="$PROJECT_DIR$/comments/sport_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_23" afterPath="$PROJECT_DIR$/comments/sport_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_24" afterPath="$PROJECT_DIR$/comments/sport_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_25" afterPath="$PROJECT_DIR$/comments/sport_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_26" afterPath="$PROJECT_DIR$/comments/sport_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_27" afterPath="$PROJECT_DIR$/comments/sport_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_28" afterPath="$PROJECT_DIR$/comments/sport_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_29" afterPath="$PROJECT_DIR$/comments/sport_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_30" afterPath="$PROJECT_DIR$/comments/sport_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_21" afterPath="$PROJECT_DIR$/comments/wirtschaft_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_22" afterPath="$PROJECT_DIR$/comments/wirtschaft_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_23" afterPath="$PROJECT_DIR$/comments/wirtschaft_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_24" afterPath="$PROJECT_DIR$/comments/wirtschaft_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_25" afterPath="$PROJECT_DIR$/comments/wirtschaft_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_26" afterPath="$PROJECT_DIR$/comments/wirtschaft_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_27" afterPath="$PROJECT_DIR$/comments/wirtschaft_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_28" afterPath="$PROJECT_DIR$/comments/wirtschaft_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_29" afterPath="$PROJECT_DIR$/comments/wirtschaft_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_30" afterPath="$PROJECT_DIR$/comments/wirtschaft_30" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_21" afterPath="$PROJECT_DIR$/comments/wissenschaft_21" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_22" afterPath="$PROJECT_DIR$/comments/wissenschaft_22" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_23" afterPath="$PROJECT_DIR$/comments/wissenschaft_23" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_24" afterPath="$PROJECT_DIR$/comments/wissenschaft_24" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_25" afterPath="$PROJECT_DIR$/comments/wissenschaft_25" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_26" afterPath="$PROJECT_DIR$/comments/wissenschaft_26" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_27" afterPath="$PROJECT_DIR$/comments/wissenschaft_27" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_28" afterPath="$PROJECT_DIR$/comments/wissenschaft_28" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_29" afterPath="$PROJECT_DIR$/comments/wissenschaft_29" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_30" afterPath="$PROJECT_DIR$/comments/wissenschaft_30" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process_saved_links.py" afterPath="$PROJECT_DIR$/process_saved_links.py" />
     </list>
     <ignored mask=".idea" />
     <ignored mask=".xml" />
@@ -15,8 +111,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/webScraper$py_test_in_retrieving_tests_py.coverage" NAME="py.test in retrieving_tests.py Coverage Results" MODIFIED="1522965448748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/webScraper$process_saved_links.coverage" NAME="process_saved_links Coverage Results" MODIFIED="1523520197098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webScraper$py_test_in_retrieving_tests_py.coverage" NAME="py.test in retrieving_tests.py Coverage Results" MODIFIED="1523896811208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/webScraper$debug.coverage" NAME="debug Coverage Results" MODIFIED="1524220121593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webScraper$process_saved_links.coverage" NAME="process_saved_links Coverage Results" MODIFIED="1524691460859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -27,8 +124,8 @@
       <file leaf-file-name="process_saved_links.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/process_saved_links.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="254" column="43" lean-forward="true" selection-start-line="254" selection-start-column="43" selection-end-line="254" selection-end-column="43" />
+            <state relative-caret-position="293">
+              <caret line="325" column="1" lean-forward="false" selection-start-line="325" selection-start-column="1" selection-end-line="325" selection-end-column="1" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -48,11 +145,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="retrieving_tests.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
+      <file leaf-file-name="debug.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/debug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2970">
-              <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
+            <state relative-caret-position="3405">
+              <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -62,6 +159,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,6 +173,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/retrieving_tests.py" />
+        <option value="$PROJECT_DIR$/debug.py" />
         <option value="$PROJECT_DIR$/process_saved_links.py" />
       </list>
     </option>
@@ -184,6 +289,24 @@
       <option name="params" value="" />
       <option name="USE_PARAM" value="false" />
       <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webScraper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -400,14 +523,16 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.process_saved_links" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in retrieving_tests.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.debug" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Python.process_saved_links" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in retrieving_tests.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in retrieving_tests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -437,22 +562,40 @@
     <history-entry file="py_test_in_retrieving_tests_py - 2018.04.05 at 23h 57m 29s.xml">
       <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 34m 39s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 34m 57s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 35m 50s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 37m 53s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 38m 07s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_retrieving_tests_py - 2018.04.16 at 18h 40m 12s.xml">
+      <configuration name="py.test in retrieving_tests.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.50572956" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32692307" sideWeight="0.49427044" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -492,30 +635,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+    <entry file="file://$PROJECT_DIR$/debug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
+        <state relative-caret-position="3405">
+          <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -542,10 +665,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
+    <entry file="file://$PROJECT_DIR$/debug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
+        <state relative-caret-position="3405">
+          <caret line="230" column="33" lean-forward="true" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2580">
+          <caret line="176" column="15" lean-forward="false" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="50" lean-forward="true" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="130" column="45" lean-forward="false" selection-start-line="130" selection-start-column="45" selection-end-line="130" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -572,16 +785,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
     <entry file="file://$PROJECT_DIR$/process_saved_links.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3555">
@@ -602,16 +932,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
     <entry file="file://$PROJECT_DIR$/process_saved_links.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,6 +1012,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/retrieving_tests.py" />
+    <entry file="file://$PROJECT_DIR$/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3405">
+          <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -701,20 +1033,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/retrieving_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="201" column="4" lean-forward="false" selection-start-line="201" selection-start-column="4" selection-end-line="203" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/process_saved_links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="254" column="43" lean-forward="true" selection-start-line="254" selection-start-column="43" selection-end-line="254" selection-end-column="43" />
+        <state relative-caret-position="293">
+          <caret line="325" column="1" lean-forward="false" selection-start-line="325" selection-start-column="1" selection-end-line="325" selection-end-column="1" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
