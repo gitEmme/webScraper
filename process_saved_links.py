@@ -3,7 +3,8 @@ import requests
 import re
 from bs4 import BeautifulSoup
 from datetime import date,timedelta
-import pprint
+import datetime
+
 
 ############################# the following  look for links in a spiegel's html page, under a specified html class tag, reconstructing the absolute url if necessary ########################
 ############################# catching connection exceptions because sometimes the comment space under an article can be closed, starting at a certain day  #################################
@@ -273,6 +274,38 @@ def strip_body():
                 #print(temp)
             print('WRITING ON '+i +str(j))
             with open(i+str(j),'wb') as fp:
+                pickle.dump(temp, fp)
+
+def date_time():    # to fix date in the standard datetime yy-mm-dd
+    file_list = ['comments/politik_', 'comments/wirtschaft_'
+        , 'comments/panorama_', 'comments/sport_'
+        , 'comments/kultur_', 'comments/netzwelt_'
+        , 'comments/wissenschaft_', 'comments/gesundheit_'
+        , 'comments/lebenundlernen_'
+                 # ,'comments/karriere_'  #removed from stripping because all files are already been retrieved
+        , 'comments/reise_', 'comments/auto_']
+    for i in file_list[9:11]:
+        if (i == 'comments/auto_'):
+            max = 29
+        elif (i == 'comments/lebenundlernen_'):
+            max = 30
+        else:
+            max = 31
+        for j in range(21, max):
+            with open(i + str(j), 'rb') as fp:
+                read = pickle.load(fp)
+            fp.close()
+            temp = []
+            for item in read:
+                old = item['date']
+                d=old.split('.')
+                date=datetime.date(int(d[2]),int(d[1]),int(d[0])).isoformat()
+                print(date)
+                item['date']=date
+                temp.append(item)
+                # print(temp)
+            print('WRITING ON ' + i + str(j))
+            with open(i + str(j), 'wb') as fp:
                 pickle.dump(temp, fp)
 
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
