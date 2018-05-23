@@ -1,0 +1,1349 @@
+Opening the collected comments one can notice that they are not all unique: the post-bit id is unique but the comments' body not always is:
+some users posted the same content more then once. In the following text False indicate that the number of comments in the opened file(opening comments/*) is not equal to the number of unique comments in that file; for example in politik_1 there are 10908 comments but only 10844 comments are unique which means that some authors are posting the same content more than once.
+
+
+/usr/bin/python3.5 /home/dude/PycharmProjects/webScraper/load_to_db.py
+opening comments/politik_1
+False
+10844
+10908
+opening comments/politik_2
+False
+11472
+11541
+opening comments/politik_3
+False
+13126
+13195
+opening comments/politik_4
+False
+14491
+14581
+opening comments/politik_5
+False
+12614
+12694
+opening comments/politik_6
+False
+13502
+13592
+opening comments/politik_7
+False
+10947
+11007
+opening comments/politik_8
+False
+10767
+10824
+opening comments/politik_9
+False
+11013
+11079
+opening comments/politik_10
+False
+14880
+14973
+opening comments/politik_11
+False
+11831
+11881
+opening comments/politik_12
+False
+11707
+11783
+opening comments/politik_13
+False
+9663
+9703
+opening comments/politik_14
+False
+12377
+12431
+opening comments/politik_15
+False
+11965
+12017
+opening comments/politik_16
+False
+15968
+16043
+opening comments/politik_17
+False
+15934
+16011
+opening comments/politik_18
+False
+18477
+18591
+opening comments/politik_19
+False
+17991
+18119
+opening comments/politik_20
+False
+16412
+16523
+opening comments/politik_21
+False
+21356
+21500
+opening comments/politik_22
+False
+17070
+17160
+opening comments/politik_23
+False
+14089
+14177
+opening comments/politik_24
+False
+16508
+16580
+opening comments/politik_25
+False
+16294
+16382
+opening comments/politik_26
+False
+15266
+15338
+opening comments/politik_27
+False
+15960
+16058
+opening comments/politik_28
+False
+14247
+14312
+opening comments/politik_29
+False
+17760
+17852
+opening comments/politik_30
+False
+17131
+17195
+434050
+431662
+opening comments/wirtschaft_1
+False
+11224
+11286
+opening comments/wirtschaft_2
+False
+10212
+10262
+opening comments/wirtschaft_3
+False
+11143
+11212
+opening comments/wirtschaft_4
+False
+12875
+12953
+opening comments/wirtschaft_5
+False
+12161
+12221
+opening comments/wirtschaft_6
+False
+11705
+11783
+opening comments/wirtschaft_7
+False
+12596
+12682
+opening comments/wirtschaft_8
+False
+10419
+10481
+opening comments/wirtschaft_9
+False
+13118
+13182
+opening comments/wirtschaft_10
+False
+13955
+14045
+opening comments/wirtschaft_11
+False
+14733
+14817
+opening comments/wirtschaft_12
+False
+10664
+10727
+opening comments/wirtschaft_13
+False
+12503
+12566
+opening comments/wirtschaft_14
+False
+13650
+13736
+opening comments/wirtschaft_15
+False
+12622
+12689
+opening comments/wirtschaft_16
+False
+11297
+11352
+opening comments/wirtschaft_17
+False
+13678
+13735
+opening comments/wirtschaft_18
+False
+14601
+14674
+opening comments/wirtschaft_19
+False
+16140
+16244
+opening comments/wirtschaft_20
+False
+14345
+14453
+opening comments/wirtschaft_21
+False
+15611
+15680
+opening comments/wirtschaft_22
+False
+15720
+15815
+opening comments/wirtschaft_23
+False
+14981
+15081
+opening comments/wirtschaft_24
+False
+18054
+18152
+opening comments/wirtschaft_25
+False
+16335
+16454
+opening comments/wirtschaft_26
+False
+11064
+11125
+opening comments/wirtschaft_27
+False
+13364
+13439
+opening comments/wirtschaft_28
+False
+14723
+14822
+opening comments/wirtschaft_29
+False
+19421
+19573
+opening comments/wirtschaft_30
+False
+16196
+16321
+845612
+840772
+opening comments/panorama_1
+False
+5287
+5320
+opening comments/panorama_2
+False
+4812
+4835
+opening comments/panorama_3
+False
+4288
+4316
+opening comments/panorama_4
+False
+4050
+4064
+opening comments/panorama_5
+False
+5663
+5688
+opening comments/panorama_6
+False
+3788
+3800
+opening comments/panorama_7
+False
+3360
+3373
+opening comments/panorama_8
+False
+4627
+4650
+opening comments/panorama_9
+False
+4600
+4623
+opening comments/panorama_10
+False
+5156
+5187
+opening comments/panorama_11
+False
+4669
+4693
+opening comments/panorama_12
+False
+4283
+4316
+opening comments/panorama_13
+False
+6073
+6112
+opening comments/panorama_14
+False
+6168
+6200
+opening comments/panorama_15
+False
+4729
+4758
+opening comments/panorama_16
+False
+4918
+4961
+opening comments/panorama_17
+False
+7235
+7292
+opening comments/panorama_18
+False
+4762
+4794
+opening comments/panorama_19
+False
+8026
+8078
+opening comments/panorama_20
+False
+7508
+7558
+opening comments/panorama_21
+False
+6474
+6492
+opening comments/panorama_22
+False
+5678
+5714
+opening comments/panorama_23
+False
+11352
+11478
+opening comments/panorama_24
+False
+3583
+3600
+opening comments/panorama_25
+False
+5375
+5407
+opening comments/panorama_26
+False
+5772
+5825
+opening comments/panorama_27
+False
+6917
+6989
+opening comments/panorama_28
+False
+4477
+4517
+opening comments/panorama_29
+False
+6604
+6651
+opening comments/panorama_30
+False
+6229
+6300
+1013203
+1007235
+opening comments/sport_1
+False
+3171
+3182
+opening comments/sport_2
+False
+3334
+3349
+opening comments/sport_3
+False
+2107
+2110
+opening comments/sport_4
+False
+2903
+2911
+opening comments/sport_5
+False
+1876
+1880
+opening comments/sport_6
+False
+1796
+1807
+opening comments/sport_7
+False
+3104
+3121
+opening comments/sport_8
+False
+2946
+2962
+opening comments/sport_9
+False
+4493
+4519
+opening comments/sport_10
+False
+2520
+2530
+opening comments/sport_11
+False
+3134
+3147
+opening comments/sport_12
+False
+2540
+2549
+opening comments/sport_13
+False
+2280
+2290
+opening comments/sport_14
+False
+4062
+4084
+opening comments/sport_15
+False
+3460
+3479
+opening comments/sport_16
+False
+3045
+3061
+opening comments/sport_17
+False
+3811
+3827
+opening comments/sport_18
+False
+4223
+4245
+opening comments/sport_19
+False
+3319
+3335
+opening comments/sport_20
+False
+3360
+3382
+opening comments/sport_21
+False
+3367
+3371
+opening comments/sport_22
+False
+3403
+3413
+opening comments/sport_23
+False
+2968
+2980
+opening comments/sport_24
+False
+4208
+4243
+opening comments/sport_25
+False
+2807
+2825
+opening comments/sport_26
+False
+2603
+2615
+opening comments/sport_27
+False
+3975
+3998
+opening comments/sport_28
+False
+3662
+3681
+opening comments/sport_29
+False
+2614
+2623
+opening comments/sport_30
+False
+2917
+2926
+1107648
+1101243
+opening comments/kultur_1
+False
+6273
+6303
+opening comments/kultur_2
+False
+6746
+6786
+opening comments/kultur_3
+False
+6494
+6532
+opening comments/kultur_4
+False
+5365
+5392
+opening comments/kultur_5
+False
+7879
+7938
+opening comments/kultur_6
+False
+12690
+12755
+opening comments/kultur_7
+False
+6902
+6941
+opening comments/kultur_8
+False
+6142
+6166
+opening comments/kultur_9
+False
+7101
+7130
+opening comments/kultur_10
+False
+9537
+9578
+opening comments/kultur_11
+False
+7605
+7653
+opening comments/kultur_12
+False
+5765
+5802
+opening comments/kultur_13
+False
+5317
+5348
+opening comments/kultur_14
+False
+7953
+8008
+opening comments/kultur_15
+False
+7771
+7809
+opening comments/kultur_16
+False
+11743
+11841
+opening comments/kultur_17
+False
+11017
+11110
+opening comments/kultur_18
+False
+10026
+10112
+opening comments/kultur_19
+False
+11982
+12071
+opening comments/kultur_20
+False
+7406
+7479
+opening comments/kultur_21
+False
+7361
+7422
+opening comments/kultur_22
+False
+8620
+8669
+opening comments/kultur_23
+False
+7062
+7112
+opening comments/kultur_24
+False
+7799
+7871
+opening comments/kultur_25
+False
+8300
+8379
+opening comments/kultur_26
+False
+6437
+6493
+opening comments/kultur_27
+False
+8848
+8948
+opening comments/kultur_28
+False
+5435
+5474
+opening comments/kultur_29
+False
+10017
+10098
+opening comments/kultur_30
+False
+6078
+6149
+1347017
+1338914
+opening comments/netzwelt_1
+False
+5858
+5887
+opening comments/netzwelt_2
+False
+6495
+6532
+opening comments/netzwelt_3
+False
+6111
+6138
+opening comments/netzwelt_4
+False
+8302
+8364
+opening comments/netzwelt_5
+False
+7874
+7910
+opening comments/netzwelt_6
+False
+8623
+8669
+opening comments/netzwelt_7
+False
+9629
+9679
+opening comments/netzwelt_8
+False
+8718
+8778
+opening comments/netzwelt_9
+False
+6694
+6727
+opening comments/netzwelt_10
+False
+6690
+6749
+opening comments/netzwelt_11
+False
+6803
+6843
+opening comments/netzwelt_12
+False
+5928
+5963
+opening comments/netzwelt_13
+False
+8531
+8577
+opening comments/netzwelt_14
+False
+7126
+7170
+opening comments/netzwelt_15
+False
+7492
+7550
+opening comments/netzwelt_16
+False
+9297
+9372
+opening comments/netzwelt_17
+False
+10590
+10680
+opening comments/netzwelt_18
+False
+8719
+8784
+opening comments/netzwelt_19
+False
+7928
+7983
+opening comments/netzwelt_20
+False
+7490
+7557
+opening comments/netzwelt_21
+False
+6809
+6860
+opening comments/netzwelt_22
+False
+4299
+4331
+opening comments/netzwelt_23
+False
+5144
+5178
+opening comments/netzwelt_24
+False
+5290
+5340
+opening comments/netzwelt_25
+False
+5861
+5899
+opening comments/netzwelt_26
+False
+5942
+6012
+opening comments/netzwelt_27
+False
+5955
+5997
+opening comments/netzwelt_28
+False
+5013
+5038
+opening comments/netzwelt_29
+False
+6502
+6561
+opening comments/netzwelt_30
+False
+7382
+7425
+1561570
+1552009
+opening comments/wissenschaft_1
+False
+11516
+11584
+opening comments/wissenschaft_2
+False
+13464
+13561
+opening comments/wissenschaft_3
+False
+12368
+12450
+opening comments/wissenschaft_4
+False
+12394
+12464
+opening comments/wissenschaft_5
+False
+15150
+15241
+opening comments/wissenschaft_6
+False
+15109
+15208
+opening comments/wissenschaft_7
+False
+10691
+10781
+opening comments/wissenschaft_8
+False
+15507
+15600
+opening comments/wissenschaft_9
+False
+13337
+13457
+opening comments/wissenschaft_10
+False
+11034
+11116
+opening comments/wissenschaft_11
+False
+14518
+14627
+opening comments/wissenschaft_12
+False
+10780
+10854
+opening comments/wissenschaft_13
+False
+10737
+10855
+opening comments/wissenschaft_14
+False
+7808
+7864
+opening comments/wissenschaft_15
+False
+8089
+8169
+opening comments/wissenschaft_16
+False
+7136
+7205
+opening comments/wissenschaft_17
+False
+7457
+7539
+opening comments/wissenschaft_18
+False
+6186
+6244
+opening comments/wissenschaft_19
+False
+7709
+7764
+opening comments/wissenschaft_20
+False
+7562
+7625
+opening comments/wissenschaft_21
+False
+9463
+9521
+opening comments/wissenschaft_22
+False
+6723
+6771
+opening comments/wissenschaft_23
+False
+7655
+7711
+1805781
+1794402
+opening comments/gesundheit_1
+False
+8746
+8795
+opening comments/gesundheit_2
+False
+9178
+9233
+opening comments/gesundheit_3
+False
+8928
+8995
+opening comments/gesundheit_4
+False
+9193
+9262
+opening comments/gesundheit_5
+False
+9275
+9332
+opening comments/gesundheit_6
+False
+9953
+10034
+opening comments/gesundheit_7
+False
+11066
+11138
+opening comments/gesundheit_8
+False
+10229
+10307
+opening comments/gesundheit_9
+False
+10541
+10643
+opening comments/gesundheit_10
+False
+9453
+9549
+opening comments/gesundheit_11
+False
+8359
+8440
+opening comments/gesundheit_12
+False
+7074
+7157
+opening comments/gesundheit_13
+False
+6995
+7065
+opening comments/gesundheit_14
+False
+7323
+7378
+opening comments/gesundheit_15
+False
+8601
+8670
+opening comments/gesundheit_16
+False
+10413
+10494
+opening comments/gesundheit_17
+False
+8741
+8834
+opening comments/gesundheit_18
+False
+8298
+8363
+opening comments/gesundheit_19
+False
+7908
+7974
+opening comments/gesundheit_20
+False
+6878
+6939
+opening comments/gesundheit_21
+False
+6140
+6185
+opening comments/gesundheit_22
+False
+5082
+5116
+1995684
+1982776
+opening comments/lebenundlernen_1
+False
+12876
+12967
+opening comments/lebenundlernen_2
+False
+12923
+13022
+opening comments/lebenundlernen_3
+False
+11046
+11106
+opening comments/lebenundlernen_4
+False
+12238
+12328
+opening comments/lebenundlernen_5
+False
+13542
+13680
+opening comments/lebenundlernen_6
+False
+13206
+13321
+opening comments/lebenundlernen_7
+False
+18312
+18492
+opening comments/lebenundlernen_8
+False
+13440
+13560
+opening comments/lebenundlernen_9
+False
+12406
+12528
+opening comments/lebenundlernen_10
+False
+12009
+12111
+opening comments/lebenundlernen_11
+False
+12778
+12892
+opening comments/lebenundlernen_12
+False
+12251
+12360
+opening comments/lebenundlernen_13
+False
+15508
+15630
+opening comments/lebenundlernen_14
+False
+12219
+12303
+opening comments/lebenundlernen_15
+False
+17593
+17707
+opening comments/lebenundlernen_16
+False
+11385
+11458
+opening comments/lebenundlernen_17
+False
+12621
+12705
+opening comments/lebenundlernen_18
+False
+10781
+10845
+opening comments/lebenundlernen_19
+False
+8936
+8987
+opening comments/lebenundlernen_20
+False
+7760
+7807
+opening comments/lebenundlernen_21
+False
+7813
+7865
+opening comments/lebenundlernen_22
+False
+9363
+9429
+opening comments/lebenundlernen_23
+False
+20600
+20715
+opening comments/lebenundlernen_24
+False
+17631
+17790
+opening comments/lebenundlernen_25
+False
+23078
+23207
+opening comments/lebenundlernen_26
+False
+27885
+28056
+opening comments/lebenundlernen_27
+False
+16389
+16482
+opening comments/lebenundlernen_28
+False
+15835
+15952
+opening comments/lebenundlernen_29
+False
+37858
+38180
+2429169
+2413058
+opening comments/karriere_1
+False
+10072
+10137
+opening comments/karriere_2
+False
+9123
+9188
+opening comments/karriere_3
+False
+8613
+8647
+opening comments/karriere_4
+False
+9633
+9703
+opening comments/karriere_5
+False
+9430
+9487
+opening comments/karriere_6
+False
+11886
+11980
+opening comments/karriere_7
+False
+12039
+12144
+opening comments/karriere_8
+False
+11418
+11515
+opening comments/karriere_9
+False
+8418
+8508
+opening comments/karriere_10
+False
+9292
+9360
+opening comments/karriere_11
+False
+8520
+8587
+opening comments/karriere_12
+False
+8479
+8544
+opening comments/karriere_13
+False
+7140
+7191
+opening comments/karriere_14
+False
+7278
+7332
+opening comments/karriere_15
+False
+6877
+6930
+opening comments/karriere_16
+False
+4622
+4651
+opening comments/karriere_17
+False
+10230
+10307
+opening comments/karriere_18
+False
+5183
+5224
+2588604
+2571311
+opening comments/reise_1
+False
+3304
+3319
+opening comments/reise_2
+False
+3598
+3610
+opening comments/reise_3
+False
+5083
+5101
+opening comments/reise_4
+False
+4639
+4658
+opening comments/reise_5
+False
+3816
+3845
+opening comments/reise_6
+False
+4285
+4319
+opening comments/reise_7
+False
+4023
+4045
+opening comments/reise_8
+False
+5326
+5375
+opening comments/reise_9
+False
+6385
+6446
+opening comments/reise_10
+False
+3342
+3372
+opening comments/reise_11
+False
+4909
+4948
+opening comments/reise_12
+False
+5034
+5091
+opening comments/reise_13
+False
+4103
+4128
+opening comments/reise_14
+False
+3874
+3907
+opening comments/reise_15
+False
+3473
+3500
+opening comments/reise_16
+False
+3086
+3105
+opening comments/reise_17
+False
+4729
+4784
+opening comments/reise_18
+False
+3388
+3415
+opening comments/reise_19
+False
+3443
+3461
+opening comments/reise_20
+False
+2320
+2341
+opening comments/reise_21
+False
+2350
+2368
+opening comments/reise_22
+False
+4148
+4169
+opening comments/reise_23
+False
+2246
+2253
+opening comments/reise_24
+False
+2713
+2740
+opening comments/reise_25
+False
+2018
+2029
+opening comments/reise_26
+False
+2404
+2414
+opening comments/reise_27
+False
+2245
+2263
+opening comments/reise_28
+False
+2243
+2251
+opening comments/reise_29
+False
+5390
+5430
+opening comments/reise_30
+False
+3292
+3311
+2700602
+2682520
+opening comments/auto_1
+False
+21842
+21961
+opening comments/auto_2
+False
+20169
+20289
+opening comments/auto_3
+False
+24841
+25009
+opening comments/auto_4
+False
+18388
+18498
+opening comments/auto_5
+False
+20627
+20766
+opening comments/auto_6
+False
+19810
+19946
+opening comments/auto_7
+False
+24727
+24902
+opening comments/auto_8
+False
+19913
+20049
+opening comments/auto_9
+False
+20523
+20677
+opening comments/auto_10
+False
+14740
+14859
+opening comments/auto_11
+False
+14323
+14422
+opening comments/auto_12
+False
+11408
+11497
+opening comments/auto_13
+False
+14218
+14305
+opening comments/auto_14
+False
+14052
+14141
+opening comments/auto_15
+False
+16264
+16379
+opening comments/auto_16
+False
+16636
+16754
+opening comments/auto_17
+False
+14529
+14631
+opening comments/auto_18
+False
+16995
+17098
+opening comments/auto_19
+False
+15458
+15543
+opening comments/auto_20
+False
+14426
+14494
+opening comments/auto_21
+False
+8426
+8467
+opening comments/auto_22
+False
+9082
+9132
+opening comments/auto_23
+False
+11859
+11933
+opening comments/auto_24
+False
+9314
+9373
+opening comments/auto_25
+False
+8765
+8820
+opening comments/auto_26
+False
+6649
+6690
+opening comments/auto_27
+False
+7178
+7220
+opening comments/auto_28
+False
+6068
+6112
+3124569 total amount of content
+3103750 unique content

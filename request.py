@@ -2,12 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import pickle
+import timeit
 
 ################# urls UNUSED ############################
 forum='http://www.spiegel.de/forum/'
 ##########################################################
 
 def prepare_single_page(site,address,string):
+    start = timeit.default_timer()
     main_page = requests.get(address)
     soup = BeautifulSoup(main_page.text, 'html.parser')
     res = []
@@ -21,6 +23,8 @@ def prepare_single_page(site,address,string):
                 links.append(site + i)
             else:
                 links.append(i)
+    stop = timeit.default_timer()
+    print(str(stop - start))
     for t in links:
         print(t)
     return links
@@ -33,10 +37,10 @@ def search_next_page(url_item): #similar to the click_next function in process_s
     temp = prepare_single_page(site,url_item,'page-next')
     while(len(temp)):
         for t in temp:
-            print(type(t))
+            #print(type(t))
             for l in prepare_single_page(site,t,'thread-content'):
                 related.append(l)
-            print(type(related[0]))
+            #print(type(related[0]))
         temp = prepare_single_page(site,t,'page-next')
     print(len(related))
     print(type(related[0]))
@@ -47,10 +51,13 @@ def search_next_page(url_item): #similar to the click_next function in process_s
 
 def save_links(**map):  #to pass map_topicfilename to retrieve all article links in each forum section and save them in their respective file
     for item in map.keys(): #for each link to forum section s --> they all save in 'map_topicfilename': url:file
-        all_links=search_next_page(item)   #search all links to article
-        with open(map[item], 'wb') as fp:   #save them
-            pickle.dump(all_links,fp)
-        fp.close()
+        start=timeit.default_timer()
+        all_links=search_next_page(item)   #search all links to articles
+        stop=timeit.default_timer()
+        print(str(stop-start))
+        #with open(map[item], 'wb') as fp:   #save them
+            #pickle.dump(all_links,fp)
+        #fp.close()
 
 def check_saved(file_name):     #to open a saved pickle file and check what is in there
     with open(file_name,'rb') as fp:
@@ -58,12 +65,13 @@ def check_saved(file_name):     #to open a saved pickle file and check what is i
     print(read[:10])
     fp.close()
 
-with open('map_topicfilename','rb') as fi:
-    m=pickle.load(fi)
-    #print(m)   #?? use pprint
-fi.close()
+def saving():
+    with open('links/map_topicfilename','rb') as fi:
+        m=pickle.load(fi)
+        print(m)   #?? use pprint
+    fi.close()
+    save_links(**m)
+    #for t in m.values():
+        #check_saved(t)
 
-#save_links(**m)
-#for t in m.values():
-    #check_saved(t)
-
+saving()

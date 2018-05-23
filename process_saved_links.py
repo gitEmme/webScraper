@@ -74,6 +74,8 @@ def get_comments_box(address):
             print("OOps: Something Else", errf)
     return res
 
+
+
 ####################### the following get functions are used to retrieve info from the html of extracted comments #############
 def fix_links(element):
     t=re.findall(r'(?<=href=").*?(?=")',element)
@@ -82,6 +84,7 @@ def fix_links(element):
             for i in t:
                 element=re.sub(r'<a href=".*?</a>', i, element, count=1)
     return element
+
 def get_post_id(html_comment):
     postid=re.findall(r'id="(postbit.*)">',html_comment)[0] #this way the postid is returned inside a list
     return postid
@@ -120,8 +123,9 @@ def get_c_body(html_comment):
             stringa=re.sub(r'\n',r' ',stringa)  #remove empty lines and sub with a space
             stringa=re.sub(r'</?q>',r' ',stringa) #remove quotes tag and sub with  space
             stringa=re.sub(r'&amp;',r'&',stringa) # ---!!!!!!!!!!!! I realize at file politik_10 that i didnt check this :(
-            #stringa=fix_links(stringa)
+            stringa=fix_links(stringa)
             comment=comment+stringa
+            comment = ' '.join(x.strip() for x in comment.split())
     return comment
 
 def get_quote(html_comment):
@@ -148,11 +152,14 @@ def get_date(html_comment):
         d = date.today().strftime('%d.%m.%y')
     else:
         d = d
-    return d
+    d = d.split('.')
+    data = datetime.date(int(d[2]), int(d[1]), int(d[0])).isoformat()
+    return data
 
 def get_time(html_comment):
     time=re.findall(r'span class="date-time">.*,\s*(.*)<',html_comment)[0]
     return time
+
 ################ the following map each extracted property to its value: preparing data for the database ##############
 def prepare_to_mongo(html_comment,link):
     map={}
@@ -174,13 +181,17 @@ def prepare_for_db(stringa,*lista): #take a list of links and from that it retri
     #stringa='netzwelt_'
     max_index=len(lista)//200
     print(max_index)
-    if max_index>40:
-        max_index=30
-    if stringa=='auto_': # specify in case you stop in the middle just one saving process
-        start=25
+    if max_index>35:
+        start=31
+        max_index=35
         end=max_index+1
+    #if stringa=='auto_': # specify in case you stop in the middle just one saving process
+        #end=max_index+1
+    elif(stringa=='wirtschaft_'):
+        start=33
+        end = max_index + 1
     else:
-        start=21
+        start=31
         end=max_index+1
     for i in range(start,end):
         db_entries = []
@@ -229,91 +240,13 @@ def saving(num, stringa):
     prepare_for_db(stringa,*lista)  #prepare file of dictionaries (one for each comment) to put in the database then
     print('numero links '+str(len(lista)))
 
-def correct_links(element):
-    t=re.findall(r'(?<=href=").*?(?=")',element)
-    if(t):
-        #print('PRIMA \n'+element)
-        if(element):
-            for i in t:
-                element=re.sub(r'<?a href=".*?<?/a>?', i+' ', element, count=1)
-                #print(t)
-                #print('dopo')
-                #print(element)
-    return element
-
-def strip_body():
-    file_list=['comments/politik_','comments/wirtschaft_'
-        ,'comments/panorama_','comments/sport_'
-        ,'comments/kultur_','comments/netzwelt_'
-        ,'comments/wissenschaft_','comments/gesundheit_'
-        ,'comments/lebenundlernen_' #,'comments/karriere_'  #removed from stripping because all files are already been retrieved
-        ,'comments/reise_','comments/auto_']
-    for i in file_list[9:11]:
-        if(i=='comments/auto_'):
-            max=29
-        elif (i=='comments/lebenundlernen_'):
-            max=30
-        else:
-            max=31
-        for j in range(21,max):
-            with open(i+str(j),'rb') as fp:
-                read=pickle.load(fp)
-            fp.close()
-            temp=[]
-            for item in read:
-                body=item['body']
-                body=correct_links(body)
-                body = re.sub(r'<b?r?/?>', r'', body)
-                body = re.sub(r'\n', r' ', body)
-                body = re.sub(r'</?q>', r'', body)
-                body = re.sub(r'&amp;', r'&', body)
-                body=' '.join(x.strip() for x in body.split())
-                #print(body)
-                item['body']=body
-                temp.append(item)
-                #print(temp)
-            print('WRITING ON '+i +str(j))
-            with open(i+str(j),'wb') as fp:
-                pickle.dump(temp, fp)
-
-def date_time():    # to fix date in the standard datetime yy-mm-dd
-    file_list = ['comments/politik_', 'comments/wirtschaft_'
-        , 'comments/panorama_', 'comments/sport_'
-        , 'comments/kultur_', 'comments/netzwelt_'
-        , 'comments/wissenschaft_', 'comments/gesundheit_'
-        , 'comments/lebenundlernen_'
-                 # ,'comments/karriere_'  #removed from stripping because all files are already been retrieved
-        , 'comments/reise_', 'comments/auto_']
-    for i in file_list[9:11]:
-        if (i == 'comments/auto_'):
-            max = 29
-        elif (i == 'comments/lebenundlernen_'):
-            max = 30
-        else:
-            max = 31
-        for j in range(21, max):
-            with open(i + str(j), 'rb') as fp:
-                read = pickle.load(fp)
-            fp.close()
-            temp = []
-            for item in read:
-                old = item['date']
-                d=old.split('.')
-                date=datetime.date(int(d[2]),int(d[1]),int(d[0])).isoformat()
-                print(date)
-                item['date']=date
-                temp.append(item)
-                # print(temp)
-            print('WRITING ON ' + i + str(j))
-            with open(i + str(j), 'wb') as fp:
-                pickle.dump(temp, fp)
-
 def check_saved(file_name,max):     #to open a saved comments pickle file and count the total amount
     l=0
     for i in range(1,max):
         with open(file_name+str(i),'rb') as fp:
             read=pickle.load(fp)
         fp.close()
+        #print(read[:2])
         print('#comments in '+file_name+str(i)+': ',len(read))
         l+=len(read)
     print('Total '+ file_name+' :'+str(l))
@@ -338,8 +271,10 @@ def count_saved():
             max=23
         elif (i=='comments/lebenundlernen_'):
             max=30
+        elif (i=='comments/reise_'):
+            max=30
         else:
-            max=31
+            max=36
         total+=check_saved(i,max)
     print('total in comments/: '+ str(total))
 
@@ -353,7 +288,7 @@ def count_saved():
 #saving(7,'gesundheit_') #START FROM HERE
 #saving(8,'karriere_')
 #saving(9,'lebenundlernen_')
-#saving(10,'reise_')
+#saving(10,'reise_')    # stop 32
 #saving(11,'auto_')
 
 #strip_body()
