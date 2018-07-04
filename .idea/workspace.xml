@@ -2,348 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb71720e-b79a-416f-a93b-d4a5387f6ca5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/load_to_db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/translate_to_english.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/map_topicfilename" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/notes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spiegel_forum_links" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spiegel_forum_sections" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_1" afterPath="$PROJECT_DIR$/comments/auto_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_10" afterPath="$PROJECT_DIR$/comments/auto_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_11" afterPath="$PROJECT_DIR$/comments/auto_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_12" afterPath="$PROJECT_DIR$/comments/auto_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_13" afterPath="$PROJECT_DIR$/comments/auto_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_14" afterPath="$PROJECT_DIR$/comments/auto_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_15" afterPath="$PROJECT_DIR$/comments/auto_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_16" afterPath="$PROJECT_DIR$/comments/auto_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_17" afterPath="$PROJECT_DIR$/comments/auto_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_18" afterPath="$PROJECT_DIR$/comments/auto_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_19" afterPath="$PROJECT_DIR$/comments/auto_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_2" afterPath="$PROJECT_DIR$/comments/auto_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_20" afterPath="$PROJECT_DIR$/comments/auto_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_21" afterPath="$PROJECT_DIR$/comments/auto_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_22" afterPath="$PROJECT_DIR$/comments/auto_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_23" afterPath="$PROJECT_DIR$/comments/auto_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_24" afterPath="$PROJECT_DIR$/comments/auto_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_25" afterPath="$PROJECT_DIR$/comments/auto_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_26" afterPath="$PROJECT_DIR$/comments/auto_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_27" afterPath="$PROJECT_DIR$/comments/auto_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_28" afterPath="$PROJECT_DIR$/comments/auto_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_3" afterPath="$PROJECT_DIR$/comments/auto_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_4" afterPath="$PROJECT_DIR$/comments/auto_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_5" afterPath="$PROJECT_DIR$/comments/auto_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_6" afterPath="$PROJECT_DIR$/comments/auto_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_7" afterPath="$PROJECT_DIR$/comments/auto_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_8" afterPath="$PROJECT_DIR$/comments/auto_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/auto_9" afterPath="$PROJECT_DIR$/comments/auto_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_1" afterPath="$PROJECT_DIR$/comments/gesundheit_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_10" afterPath="$PROJECT_DIR$/comments/gesundheit_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_11" afterPath="$PROJECT_DIR$/comments/gesundheit_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_12" afterPath="$PROJECT_DIR$/comments/gesundheit_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_13" afterPath="$PROJECT_DIR$/comments/gesundheit_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_14" afterPath="$PROJECT_DIR$/comments/gesundheit_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_15" afterPath="$PROJECT_DIR$/comments/gesundheit_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_16" afterPath="$PROJECT_DIR$/comments/gesundheit_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_17" afterPath="$PROJECT_DIR$/comments/gesundheit_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_18" afterPath="$PROJECT_DIR$/comments/gesundheit_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_19" afterPath="$PROJECT_DIR$/comments/gesundheit_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_2" afterPath="$PROJECT_DIR$/comments/gesundheit_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_20" afterPath="$PROJECT_DIR$/comments/gesundheit_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_21" afterPath="$PROJECT_DIR$/comments/gesundheit_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_22" afterPath="$PROJECT_DIR$/comments/gesundheit_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_3" afterPath="$PROJECT_DIR$/comments/gesundheit_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_4" afterPath="$PROJECT_DIR$/comments/gesundheit_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_5" afterPath="$PROJECT_DIR$/comments/gesundheit_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_6" afterPath="$PROJECT_DIR$/comments/gesundheit_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_7" afterPath="$PROJECT_DIR$/comments/gesundheit_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_8" afterPath="$PROJECT_DIR$/comments/gesundheit_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/gesundheit_9" afterPath="$PROJECT_DIR$/comments/gesundheit_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_1" afterPath="$PROJECT_DIR$/comments/karriere_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_10" afterPath="$PROJECT_DIR$/comments/karriere_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_11" afterPath="$PROJECT_DIR$/comments/karriere_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_12" afterPath="$PROJECT_DIR$/comments/karriere_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_13" afterPath="$PROJECT_DIR$/comments/karriere_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_14" afterPath="$PROJECT_DIR$/comments/karriere_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_15" afterPath="$PROJECT_DIR$/comments/karriere_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_16" afterPath="$PROJECT_DIR$/comments/karriere_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_17" afterPath="$PROJECT_DIR$/comments/karriere_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_18" afterPath="$PROJECT_DIR$/comments/karriere_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_2" afterPath="$PROJECT_DIR$/comments/karriere_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_3" afterPath="$PROJECT_DIR$/comments/karriere_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_4" afterPath="$PROJECT_DIR$/comments/karriere_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_5" afterPath="$PROJECT_DIR$/comments/karriere_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_6" afterPath="$PROJECT_DIR$/comments/karriere_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_7" afterPath="$PROJECT_DIR$/comments/karriere_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_8" afterPath="$PROJECT_DIR$/comments/karriere_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/karriere_9" afterPath="$PROJECT_DIR$/comments/karriere_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_1" afterPath="$PROJECT_DIR$/comments/kultur_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_10" afterPath="$PROJECT_DIR$/comments/kultur_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_11" afterPath="$PROJECT_DIR$/comments/kultur_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_12" afterPath="$PROJECT_DIR$/comments/kultur_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_13" afterPath="$PROJECT_DIR$/comments/kultur_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_14" afterPath="$PROJECT_DIR$/comments/kultur_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_15" afterPath="$PROJECT_DIR$/comments/kultur_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_16" afterPath="$PROJECT_DIR$/comments/kultur_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_17" afterPath="$PROJECT_DIR$/comments/kultur_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_18" afterPath="$PROJECT_DIR$/comments/kultur_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_19" afterPath="$PROJECT_DIR$/comments/kultur_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_2" afterPath="$PROJECT_DIR$/comments/kultur_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_20" afterPath="$PROJECT_DIR$/comments/kultur_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_21" afterPath="$PROJECT_DIR$/comments/kultur_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_22" afterPath="$PROJECT_DIR$/comments/kultur_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_23" afterPath="$PROJECT_DIR$/comments/kultur_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_24" afterPath="$PROJECT_DIR$/comments/kultur_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_25" afterPath="$PROJECT_DIR$/comments/kultur_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_26" afterPath="$PROJECT_DIR$/comments/kultur_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_27" afterPath="$PROJECT_DIR$/comments/kultur_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_28" afterPath="$PROJECT_DIR$/comments/kultur_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_29" afterPath="$PROJECT_DIR$/comments/kultur_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_3" afterPath="$PROJECT_DIR$/comments/kultur_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_30" afterPath="$PROJECT_DIR$/comments/kultur_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_4" afterPath="$PROJECT_DIR$/comments/kultur_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_5" afterPath="$PROJECT_DIR$/comments/kultur_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_6" afterPath="$PROJECT_DIR$/comments/kultur_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_7" afterPath="$PROJECT_DIR$/comments/kultur_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_8" afterPath="$PROJECT_DIR$/comments/kultur_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/kultur_9" afterPath="$PROJECT_DIR$/comments/kultur_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_1" afterPath="$PROJECT_DIR$/comments/lebenundlernen_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_10" afterPath="$PROJECT_DIR$/comments/lebenundlernen_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_11" afterPath="$PROJECT_DIR$/comments/lebenundlernen_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_12" afterPath="$PROJECT_DIR$/comments/lebenundlernen_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_13" afterPath="$PROJECT_DIR$/comments/lebenundlernen_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_14" afterPath="$PROJECT_DIR$/comments/lebenundlernen_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_15" afterPath="$PROJECT_DIR$/comments/lebenundlernen_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_16" afterPath="$PROJECT_DIR$/comments/lebenundlernen_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_17" afterPath="$PROJECT_DIR$/comments/lebenundlernen_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_18" afterPath="$PROJECT_DIR$/comments/lebenundlernen_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_19" afterPath="$PROJECT_DIR$/comments/lebenundlernen_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_2" afterPath="$PROJECT_DIR$/comments/lebenundlernen_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_20" afterPath="$PROJECT_DIR$/comments/lebenundlernen_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_21" afterPath="$PROJECT_DIR$/comments/lebenundlernen_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_22" afterPath="$PROJECT_DIR$/comments/lebenundlernen_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_23" afterPath="$PROJECT_DIR$/comments/lebenundlernen_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_24" afterPath="$PROJECT_DIR$/comments/lebenundlernen_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_25" afterPath="$PROJECT_DIR$/comments/lebenundlernen_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_26" afterPath="$PROJECT_DIR$/comments/lebenundlernen_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_27" afterPath="$PROJECT_DIR$/comments/lebenundlernen_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_28" afterPath="$PROJECT_DIR$/comments/lebenundlernen_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_29" afterPath="$PROJECT_DIR$/comments/lebenundlernen_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_3" afterPath="$PROJECT_DIR$/comments/lebenundlernen_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_4" afterPath="$PROJECT_DIR$/comments/lebenundlernen_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_5" afterPath="$PROJECT_DIR$/comments/lebenundlernen_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_6" afterPath="$PROJECT_DIR$/comments/lebenundlernen_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_7" afterPath="$PROJECT_DIR$/comments/lebenundlernen_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_8" afterPath="$PROJECT_DIR$/comments/lebenundlernen_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/lebenundlernen_9" afterPath="$PROJECT_DIR$/comments/lebenundlernen_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_1" afterPath="$PROJECT_DIR$/comments/netzwelt_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_10" afterPath="$PROJECT_DIR$/comments/netzwelt_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_11" afterPath="$PROJECT_DIR$/comments/netzwelt_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_12" afterPath="$PROJECT_DIR$/comments/netzwelt_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_13" afterPath="$PROJECT_DIR$/comments/netzwelt_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_14" afterPath="$PROJECT_DIR$/comments/netzwelt_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_15" afterPath="$PROJECT_DIR$/comments/netzwelt_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_16" afterPath="$PROJECT_DIR$/comments/netzwelt_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_17" afterPath="$PROJECT_DIR$/comments/netzwelt_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_18" afterPath="$PROJECT_DIR$/comments/netzwelt_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_19" afterPath="$PROJECT_DIR$/comments/netzwelt_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_2" afterPath="$PROJECT_DIR$/comments/netzwelt_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_20" afterPath="$PROJECT_DIR$/comments/netzwelt_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_21" afterPath="$PROJECT_DIR$/comments/netzwelt_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_22" afterPath="$PROJECT_DIR$/comments/netzwelt_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_23" afterPath="$PROJECT_DIR$/comments/netzwelt_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_24" afterPath="$PROJECT_DIR$/comments/netzwelt_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_25" afterPath="$PROJECT_DIR$/comments/netzwelt_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_26" afterPath="$PROJECT_DIR$/comments/netzwelt_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_27" afterPath="$PROJECT_DIR$/comments/netzwelt_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_28" afterPath="$PROJECT_DIR$/comments/netzwelt_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_29" afterPath="$PROJECT_DIR$/comments/netzwelt_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_3" afterPath="$PROJECT_DIR$/comments/netzwelt_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_30" afterPath="$PROJECT_DIR$/comments/netzwelt_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_4" afterPath="$PROJECT_DIR$/comments/netzwelt_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_5" afterPath="$PROJECT_DIR$/comments/netzwelt_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_6" afterPath="$PROJECT_DIR$/comments/netzwelt_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_7" afterPath="$PROJECT_DIR$/comments/netzwelt_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_8" afterPath="$PROJECT_DIR$/comments/netzwelt_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/netzwelt_9" afterPath="$PROJECT_DIR$/comments/netzwelt_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_1" afterPath="$PROJECT_DIR$/comments/panorama_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_10" afterPath="$PROJECT_DIR$/comments/panorama_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_11" afterPath="$PROJECT_DIR$/comments/panorama_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_12" afterPath="$PROJECT_DIR$/comments/panorama_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_13" afterPath="$PROJECT_DIR$/comments/panorama_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_14" afterPath="$PROJECT_DIR$/comments/panorama_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_15" afterPath="$PROJECT_DIR$/comments/panorama_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_16" afterPath="$PROJECT_DIR$/comments/panorama_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_17" afterPath="$PROJECT_DIR$/comments/panorama_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_18" afterPath="$PROJECT_DIR$/comments/panorama_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_19" afterPath="$PROJECT_DIR$/comments/panorama_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_2" afterPath="$PROJECT_DIR$/comments/panorama_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_20" afterPath="$PROJECT_DIR$/comments/panorama_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_21" afterPath="$PROJECT_DIR$/comments/panorama_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_22" afterPath="$PROJECT_DIR$/comments/panorama_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_23" afterPath="$PROJECT_DIR$/comments/panorama_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_24" afterPath="$PROJECT_DIR$/comments/panorama_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_25" afterPath="$PROJECT_DIR$/comments/panorama_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_26" afterPath="$PROJECT_DIR$/comments/panorama_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_27" afterPath="$PROJECT_DIR$/comments/panorama_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_28" afterPath="$PROJECT_DIR$/comments/panorama_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_29" afterPath="$PROJECT_DIR$/comments/panorama_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_3" afterPath="$PROJECT_DIR$/comments/panorama_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_30" afterPath="$PROJECT_DIR$/comments/panorama_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_4" afterPath="$PROJECT_DIR$/comments/panorama_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_5" afterPath="$PROJECT_DIR$/comments/panorama_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_6" afterPath="$PROJECT_DIR$/comments/panorama_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_7" afterPath="$PROJECT_DIR$/comments/panorama_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_8" afterPath="$PROJECT_DIR$/comments/panorama_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/panorama_9" afterPath="$PROJECT_DIR$/comments/panorama_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_1" afterPath="$PROJECT_DIR$/comments/politik_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_10" afterPath="$PROJECT_DIR$/comments/politik_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_11" afterPath="$PROJECT_DIR$/comments/politik_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_12" afterPath="$PROJECT_DIR$/comments/politik_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_13" afterPath="$PROJECT_DIR$/comments/politik_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_14" afterPath="$PROJECT_DIR$/comments/politik_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_15" afterPath="$PROJECT_DIR$/comments/politik_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_16" afterPath="$PROJECT_DIR$/comments/politik_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_17" afterPath="$PROJECT_DIR$/comments/politik_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_18" afterPath="$PROJECT_DIR$/comments/politik_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_19" afterPath="$PROJECT_DIR$/comments/politik_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_2" afterPath="$PROJECT_DIR$/comments/politik_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_20" afterPath="$PROJECT_DIR$/comments/politik_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_21" afterPath="$PROJECT_DIR$/comments/politik_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_22" afterPath="$PROJECT_DIR$/comments/politik_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_23" afterPath="$PROJECT_DIR$/comments/politik_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_24" afterPath="$PROJECT_DIR$/comments/politik_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_25" afterPath="$PROJECT_DIR$/comments/politik_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_26" afterPath="$PROJECT_DIR$/comments/politik_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_27" afterPath="$PROJECT_DIR$/comments/politik_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_28" afterPath="$PROJECT_DIR$/comments/politik_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_29" afterPath="$PROJECT_DIR$/comments/politik_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_3" afterPath="$PROJECT_DIR$/comments/politik_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_30" afterPath="$PROJECT_DIR$/comments/politik_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_4" afterPath="$PROJECT_DIR$/comments/politik_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_5" afterPath="$PROJECT_DIR$/comments/politik_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_6" afterPath="$PROJECT_DIR$/comments/politik_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_7" afterPath="$PROJECT_DIR$/comments/politik_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_8" afterPath="$PROJECT_DIR$/comments/politik_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/politik_9" afterPath="$PROJECT_DIR$/comments/politik_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_1" afterPath="$PROJECT_DIR$/comments/reise_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_10" afterPath="$PROJECT_DIR$/comments/reise_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_11" afterPath="$PROJECT_DIR$/comments/reise_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_12" afterPath="$PROJECT_DIR$/comments/reise_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_13" afterPath="$PROJECT_DIR$/comments/reise_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_14" afterPath="$PROJECT_DIR$/comments/reise_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_15" afterPath="$PROJECT_DIR$/comments/reise_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_16" afterPath="$PROJECT_DIR$/comments/reise_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_17" afterPath="$PROJECT_DIR$/comments/reise_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_18" afterPath="$PROJECT_DIR$/comments/reise_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_19" afterPath="$PROJECT_DIR$/comments/reise_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_2" afterPath="$PROJECT_DIR$/comments/reise_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_20" afterPath="$PROJECT_DIR$/comments/reise_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_21" afterPath="$PROJECT_DIR$/comments/reise_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_22" afterPath="$PROJECT_DIR$/comments/reise_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_23" afterPath="$PROJECT_DIR$/comments/reise_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_24" afterPath="$PROJECT_DIR$/comments/reise_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_25" afterPath="$PROJECT_DIR$/comments/reise_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_26" afterPath="$PROJECT_DIR$/comments/reise_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_27" afterPath="$PROJECT_DIR$/comments/reise_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_28" afterPath="$PROJECT_DIR$/comments/reise_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_29" afterPath="$PROJECT_DIR$/comments/reise_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_3" afterPath="$PROJECT_DIR$/comments/reise_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_30" afterPath="$PROJECT_DIR$/comments/reise_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_31" afterPath="$PROJECT_DIR$/comments/reise_31" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_32" afterPath="$PROJECT_DIR$/comments/reise_32" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_4" afterPath="$PROJECT_DIR$/comments/reise_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_5" afterPath="$PROJECT_DIR$/comments/reise_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_6" afterPath="$PROJECT_DIR$/comments/reise_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_7" afterPath="$PROJECT_DIR$/comments/reise_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_8" afterPath="$PROJECT_DIR$/comments/reise_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/reise_9" afterPath="$PROJECT_DIR$/comments/reise_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_1" afterPath="$PROJECT_DIR$/comments/sport_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_10" afterPath="$PROJECT_DIR$/comments/sport_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_11" afterPath="$PROJECT_DIR$/comments/sport_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_12" afterPath="$PROJECT_DIR$/comments/sport_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_13" afterPath="$PROJECT_DIR$/comments/sport_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_14" afterPath="$PROJECT_DIR$/comments/sport_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_15" afterPath="$PROJECT_DIR$/comments/sport_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_16" afterPath="$PROJECT_DIR$/comments/sport_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_17" afterPath="$PROJECT_DIR$/comments/sport_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_18" afterPath="$PROJECT_DIR$/comments/sport_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_19" afterPath="$PROJECT_DIR$/comments/sport_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_2" afterPath="$PROJECT_DIR$/comments/sport_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_20" afterPath="$PROJECT_DIR$/comments/sport_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_21" afterPath="$PROJECT_DIR$/comments/sport_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_22" afterPath="$PROJECT_DIR$/comments/sport_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_23" afterPath="$PROJECT_DIR$/comments/sport_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_24" afterPath="$PROJECT_DIR$/comments/sport_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_25" afterPath="$PROJECT_DIR$/comments/sport_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_26" afterPath="$PROJECT_DIR$/comments/sport_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_27" afterPath="$PROJECT_DIR$/comments/sport_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_28" afterPath="$PROJECT_DIR$/comments/sport_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_29" afterPath="$PROJECT_DIR$/comments/sport_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_3" afterPath="$PROJECT_DIR$/comments/sport_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_30" afterPath="$PROJECT_DIR$/comments/sport_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_4" afterPath="$PROJECT_DIR$/comments/sport_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_5" afterPath="$PROJECT_DIR$/comments/sport_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_6" afterPath="$PROJECT_DIR$/comments/sport_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_7" afterPath="$PROJECT_DIR$/comments/sport_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_8" afterPath="$PROJECT_DIR$/comments/sport_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/sport_9" afterPath="$PROJECT_DIR$/comments/sport_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_1" afterPath="$PROJECT_DIR$/comments/wirtschaft_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_10" afterPath="$PROJECT_DIR$/comments/wirtschaft_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_11" afterPath="$PROJECT_DIR$/comments/wirtschaft_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_12" afterPath="$PROJECT_DIR$/comments/wirtschaft_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_13" afterPath="$PROJECT_DIR$/comments/wirtschaft_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_14" afterPath="$PROJECT_DIR$/comments/wirtschaft_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_15" afterPath="$PROJECT_DIR$/comments/wirtschaft_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_16" afterPath="$PROJECT_DIR$/comments/wirtschaft_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_17" afterPath="$PROJECT_DIR$/comments/wirtschaft_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_18" afterPath="$PROJECT_DIR$/comments/wirtschaft_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_19" afterPath="$PROJECT_DIR$/comments/wirtschaft_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_2" afterPath="$PROJECT_DIR$/comments/wirtschaft_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_20" afterPath="$PROJECT_DIR$/comments/wirtschaft_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_21" afterPath="$PROJECT_DIR$/comments/wirtschaft_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_22" afterPath="$PROJECT_DIR$/comments/wirtschaft_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_23" afterPath="$PROJECT_DIR$/comments/wirtschaft_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_24" afterPath="$PROJECT_DIR$/comments/wirtschaft_24" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_25" afterPath="$PROJECT_DIR$/comments/wirtschaft_25" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_26" afterPath="$PROJECT_DIR$/comments/wirtschaft_26" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_27" afterPath="$PROJECT_DIR$/comments/wirtschaft_27" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_28" afterPath="$PROJECT_DIR$/comments/wirtschaft_28" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_29" afterPath="$PROJECT_DIR$/comments/wirtschaft_29" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_3" afterPath="$PROJECT_DIR$/comments/wirtschaft_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_30" afterPath="$PROJECT_DIR$/comments/wirtschaft_30" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_4" afterPath="$PROJECT_DIR$/comments/wirtschaft_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_5" afterPath="$PROJECT_DIR$/comments/wirtschaft_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_6" afterPath="$PROJECT_DIR$/comments/wirtschaft_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_7" afterPath="$PROJECT_DIR$/comments/wirtschaft_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_8" afterPath="$PROJECT_DIR$/comments/wirtschaft_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wirtschaft_9" afterPath="$PROJECT_DIR$/comments/wirtschaft_9" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_1" afterPath="$PROJECT_DIR$/comments/wissenschaft_1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_10" afterPath="$PROJECT_DIR$/comments/wissenschaft_10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_11" afterPath="$PROJECT_DIR$/comments/wissenschaft_11" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_12" afterPath="$PROJECT_DIR$/comments/wissenschaft_12" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_13" afterPath="$PROJECT_DIR$/comments/wissenschaft_13" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_14" afterPath="$PROJECT_DIR$/comments/wissenschaft_14" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_15" afterPath="$PROJECT_DIR$/comments/wissenschaft_15" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_16" afterPath="$PROJECT_DIR$/comments/wissenschaft_16" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_17" afterPath="$PROJECT_DIR$/comments/wissenschaft_17" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_18" afterPath="$PROJECT_DIR$/comments/wissenschaft_18" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_19" afterPath="$PROJECT_DIR$/comments/wissenschaft_19" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_2" afterPath="$PROJECT_DIR$/comments/wissenschaft_2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_20" afterPath="$PROJECT_DIR$/comments/wissenschaft_20" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_21" afterPath="$PROJECT_DIR$/comments/wissenschaft_21" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_22" afterPath="$PROJECT_DIR$/comments/wissenschaft_22" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_23" afterPath="$PROJECT_DIR$/comments/wissenschaft_23" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_3" afterPath="$PROJECT_DIR$/comments/wissenschaft_3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_4" afterPath="$PROJECT_DIR$/comments/wissenschaft_4" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_5" afterPath="$PROJECT_DIR$/comments/wissenschaft_5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_6" afterPath="$PROJECT_DIR$/comments/wissenschaft_6" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_7" afterPath="$PROJECT_DIR$/comments/wissenschaft_7" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_8" afterPath="$PROJECT_DIR$/comments/wissenschaft_8" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments/wissenschaft_9" afterPath="$PROJECT_DIR$/comments/wissenschaft_9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset_files/raw_num_labeled" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset_files/stem_raw_labeled" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trainset/rawtext_labeled" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trainset/prepocessing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trainset/stemming_train.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/debug.py" afterPath="$PROJECT_DIR$/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/process_saved_links.py" afterPath="$PROJECT_DIR$/process_saved_links.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/request.py" afterPath="$PROJECT_DIR$/request.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset_files/blob_sentiment.py" afterPath="$PROJECT_DIR$/dataset_files/blob_sentiment.py" />
     </list>
     <ignored mask=".idea" />
     <ignored mask=".xml" />
@@ -365,10 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="process_saved_links.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="process_saved_links.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/process_saved_links.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="4845">
               <caret line="290" column="33" lean-forward="false" selection-start-line="290" selection-start-column="33" selection-end-line="290" selection-end-column="33" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -377,11 +42,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="blob_sentiment.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset_files/blob_sentiment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stemming_train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainset/stemming_train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prepocessing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainset/prepocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2210">
+              <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="load_to_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/load_to_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="938">
+              <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -454,6 +155,9 @@
         <option value="$PROJECT_DIR$/blob_sentiment.py" />
         <option value="$PROJECT_DIR$/load_to_db.py" />
         <option value="$PROJECT_DIR$/process_saved_links.py" />
+        <option value="$PROJECT_DIR$/trainset/stemming_train.py" />
+        <option value="$PROJECT_DIR$/trainset/prepocessing.py" />
+        <option value="$PROJECT_DIR$/dataset_files/blob_sentiment.py" />
       </list>
     </option>
   </component>
@@ -464,10 +168,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="57" />
-    <option name="y" value="21" />
-    <option name="width" value="1309" />
-    <option name="height" value="747" />
+    <option name="x" value="76" />
+    <option name="y" value="46" />
+    <option name="width" value="1099" />
+    <option name="height" value="443" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -484,6 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -496,12 +202,15 @@
               <item name="webScraper" type="462c0819:PsiDirectoryNode" />
               <item name="dataset_files" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webScraper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webScraper" type="462c0819:PsiDirectoryNode" />
+              <item name="trainset" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -526,7 +235,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="901" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Ignored.Files" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newSentiment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigData18HAW" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/trainset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset_files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -540,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.process_saved_links">
+  <component name="RunManager" selected="Python.blob_sentiment">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -754,20 +471,20 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <configuration name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="blob_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataset_files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webScraper" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/debug.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset_files/blob_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -790,6 +507,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="prepocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainset" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webScraper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainset/prepocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="process_saved_links" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -808,76 +543,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="py.test in retrieving_tests.py" type="tests" factoryName="py.test" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webScraper" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="$PROJECT_DIR$/retrieving_tests.py" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_legacyInformationCopiedToNew" value="true" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="request" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="stemming_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/trainset" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="webScraper" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/request.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trainset/stemming_train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.process_saved_links" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in retrieving_tests.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python.debug" />
-      <item index="3" class="java.lang.String" itemvalue="Python.request" />
-      <item index="4" class="java.lang.String" itemvalue="Python.load_to_db" />
+      <item index="1" class="java.lang.String" itemvalue="Python.load_to_db" />
+      <item index="2" class="java.lang.String" itemvalue="Python.blob_sentiment" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stemming_train" />
+      <item index="4" class="java.lang.String" itemvalue="Python.prepocessing" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.process_saved_links" />
-        <item index="1" class="java.lang.String" itemvalue="Python.load_to_db" />
-        <item index="2" class="java.lang.String" itemvalue="Python.debug" />
-        <item index="3" class="java.lang.String" itemvalue="Python.request" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in retrieving_tests.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.blob_sentiment" />
+        <item index="1" class="java.lang.String" itemvalue="Python.prepocessing" />
+        <item index="2" class="java.lang.String" itemvalue="Python.stemming_train" />
+        <item index="3" class="java.lang.String" itemvalue="Python.process_saved_links" />
+        <item index="4" class="java.lang.String" itemvalue="Python.load_to_db" />
       </list>
     </recent_temporary>
   </component>
@@ -928,17 +625,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980901" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32561728" sideWeight="0.52100843" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22139673" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31352153" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -976,40 +674,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="50" lean-forward="false" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="176" column="15" lean-forward="false" selection-start-line="176" selection-start-column="15" selection-end-line="176" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1339,37 +1009,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dumm.csv">
+    <entry file="file://$PROJECT_DIR$/dumm.csv" />
+    <entry file="file://$PROJECT_DIR$/blob_sentiment.py" />
+    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="951" lean-forward="false" selection-start-line="14" selection-start-column="951" selection-end-line="14" selection-end-column="951" />
+        <state relative-caret-position="4845">
+          <caret line="290" column="33" lean-forward="false" selection-start-line="290" selection-start-column="33" selection-end-line="290" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blob_sentiment.py">
+    <entry file="file://$PROJECT_DIR$/trainset/stemming_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/load_to_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state relative-caret-position="938">
+          <caret line="87" column="13" lean-forward="false" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/process_saved_links.py">
+    <entry file="file://$PROJECT_DIR$/trainset/prepocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="290" column="33" lean-forward="false" selection-start-line="290" selection-start-column="33" selection-end-line="290" selection-end-column="33" />
+        <state relative-caret-position="2210">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset_files/blob_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
