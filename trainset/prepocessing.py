@@ -6,6 +6,7 @@ from tensorflow.python.keras.preprocessing.sequence import pad_sequences
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense, GRU, Embedding
 from tensorflow.python.keras.optimizers import Adam
+import gc
 import matplotlib.pyplot as plt
 import tensorflow as tf
 from scipy.spatial.distance import cdist
@@ -39,7 +40,7 @@ def split_data(percent,length):
     return percent*length//100
 
 ## the following create the dictionary word: index and create the mapping array for each comment in the trainset
-def word_mapping():
+def rnn():
     with open('raw_num_labeled','rb') as f:
         data=pickle.load(f)
     f.close()
@@ -124,8 +125,10 @@ def word_mapping():
                   metrics=['accuracy'])
     print(model.summary())
     model.fit(x_train_pad, y_train,
-              validation_split=0.05, epochs=3, batch_size=64)
+              validation_split=0.05, epochs=6, batch_size=64)
     result = model.evaluate(x_test_pad, y_test)
     print("Accuracy: {0:.2%}".format(result[1]))
+    print(type(model))
+    gc.collect() # avoid arror induced by different gc sequence, if python collect session first , the program will exit successfully, if python collect swig memory(tf_session) first, the program exit with failure.
 
-word_mapping()
+rnn()
