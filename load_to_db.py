@@ -6,7 +6,9 @@ from translate_to_english import translator_func
 import codecs
 import csv
 
-client=pymongo.MongoClient('172.17.0.2')
+
+# if connecting to docker container specify the correct ip address
+client=pymongo.MongoClient()
 
 def open_import_data():
     db=client.spiegel
@@ -99,6 +101,86 @@ def look_for_word(mentioned_word,sentiment):
     #print('total politik ' + str(count_p))
     return mentioned
 #delete_db()
+
+def check_data():
+    total=0
+    count = 0
+    p = client.spiegel.auto.find()
+    for item in p:
+        count += 1
+    print('auto : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.gesundheit.find()
+    for item in p:
+        count += 1
+    print('gesundheit : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.karriere.find()
+    for item in p:
+        count += 1
+    print('karriere : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.kultur.find()
+    for item in p:
+        count += 1
+    print('kultur : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.lebenundlernen.find()
+    for item in p:
+        count += 1
+    print('lebenundlernen : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.netzwelt.find()
+    for item in p:
+        count += 1
+    print('netzwelt : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.panorama.find()
+    for item in p:
+        count += 1
+    print('panorama : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.politik.find()
+    for item in p:
+        count += 1
+    print('politik : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.reise.find()
+    for item in p:
+        count += 1
+    print('reise : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.sport.find()
+    for item in p:
+        count += 1
+    print('sport : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.wirtschaft.find()
+    for item in p:
+        count += 1
+    print('wirtschaft : ' + str(count))
+    total += count
+    count = 0
+    p = client.spiegel.wissenschaft.find()
+    for item in p:
+        count += 1
+    print('wissenschaft : ' + str(count))
+    total += count
+
+    print(total)
+
+
+check_data()
 #open_import_data()
 
 #look_for_word('Merkel')
@@ -113,9 +195,9 @@ def look_for_word(mentioned_word,sentiment):
 #res=look_for_word('fantastisch','positive') #only 100 comments
 #res=look_for_word('tolle idee','positive') #only 1
 #res=look_for_word('toll','positive')  #4263 comments
-res=look_for_word('witzig','positive')  #859 comments
-for t in res:
-    pprint.pprint(t)
+#res=look_for_word('witzig','positive')  #859 comments
+#for t in res:
+ #   pprint.pprint(t)
 """
 with open('schädlich','wb') as f:
     pickle.dump(res,f)#f.close()
