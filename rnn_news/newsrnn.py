@@ -12,7 +12,8 @@ from scipy.spatial.distance import cdist
 import pymongo
 
 client=pymongo.MongoClient('localhost')
-#data relabeled to have a
+### tensorboard --logdir==training:/home/dude/PycharmProjects/webScraper/rnn_news/Graph/ --host=127.0.0.1
+##  go to http://127.0.0.1:6006
 
 def relabel_data():
     with open('rawtext_labeled','rb') as f:
