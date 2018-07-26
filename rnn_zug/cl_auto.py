@@ -22,17 +22,18 @@ def max_value(a,b,c):
         else:
             m=b
     return m
+
 def classify():
     model=tf.keras.models.load_model(
-        'newsmodel.hdf5',
+        'zugmodel.hdf5',
         custom_objects=None,
         compile=True
     )
-    with open('raw_labeled_num','rb') as f:
+    with open('alldata','rb') as f:
         data=pickle.load(f)
     f.close()
     dataset=[]
-    for txt,label in data:
+    for txt in data:
         dataset.append(txt)
     tokenizer=Tokenizer(num_words=None)
     tokenizer.fit_on_texts(dataset)
@@ -41,25 +42,22 @@ def classify():
         texts.append(comment['body'])
         tokens = tokenizer.texts_to_sequences(texts)
         pad='pre'
-        max_tokens=103
+        max_tokens=85
         tokens_pad = pad_sequences(tokens, maxlen=max_tokens,padding=pad, truncating=pad)
-        #print(tokens_pad[0])
-        #print(tokens_pad.shape)
-        #print(model.predict(tokens_pad))
-        res=model.predict(tokens_pad)[0]
-        p=float(res[0])
-        neu=float(res[1])
-        neg=float(res[2])
-        maximum=max_value(p,neu,neg)
-        if maximum==p:
-            sentiment='positive'
-        elif maximum==neu:
-            sentiment='neutral'
+        res = model.predict(tokens_pad)[0]
+        p = float(res[0])
+        neu = float(res[1])
+        neg = float(res[2])
+        maximum = max_value(p, neu, neg)
+        if maximum == p:
+            sentiment = 'positive'
+        elif maximum == neu:
+            sentiment = 'neutral'
         else:
-            sentiment='negative'
+            sentiment = 'negative'
 
-        client.spiegel.auto.update({'_id': comment['_id']}, {"$set": {'sentiment': sentiment}},upsert=True)
-        client.spiegel.auto.update({'_id': comment['_id']}, {"$set": {'sentimentNews': [p,neu,neg]}}, upsert=True)
+        client.spiegel.auto.update({'_id': comment['_id']}, {"$set": {'sentiment2': sentiment}}, upsert=True)
+        client.spiegel.auto.update({'_id': comment['_id']}, {"$set": {'sentimentZug': [p, neu, neg]}}, upsert=True)
         print(sentiment)
         print(res)
     gc.collect()
