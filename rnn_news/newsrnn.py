@@ -129,24 +129,26 @@ def rnn():
     model.add(GRU(units=16, return_sequences=True)) #first GRU with 16 outputs units
     model.add(GRU(units=8, return_sequences=True))
     model.add(GRU(units=4))     #add 3rd GRU, it will be followed by a dense-layer
-    model.add(Dense(3,activation='sigmoid'))
+    model.add(Dense(3,activation='softmax'))
     optimizer=Adam(lr=1e-3)     #this gives the learning rate
     model.compile(loss='categorical_crossentropy',   #compile the keras model
                   optimizer=optimizer,
                   metrics=['accuracy'])
     print(model.summary())
+    tbCallBack=tf.keras.callbacks.TensorBoard(log_dir='./Graph', histogram_freq=0,write_graph=True, write_images=True)
+
     model.fit(x_train_pad, y_train,
-              validation_split=0.05, epochs=10, batch_size=64,shuffle=True)
+              validation_split=0.05, epochs=100, verbose=1, batch_size=64,shuffle=True,callbacks=[tbCallBack])
     result = model.evaluate(x_test_pad, y_test)
     print("Accuracy: {0:.2%}".format(result[1]))
     print(type(model))
     tf.keras.models.save_model(
         model,
-        'newsmodel.hdf5',
+        'news100model.hdf5',
         overwrite=True,
         include_optimizer=True
     )
-    model.save_weights('newsnet.h5')
+    model.save_weights('news100net.h5')
     gc.collect()  # avoid arror induced by different gc sequence, if python collect session first , the program will exit successfully, if python collect swig memory(tf_session) first, the program exit with failure.
 
 
@@ -180,7 +182,7 @@ def classify():
     #print(model.predict(tokens_pad))
     gc.collect()
 
-#rnn()
-classify()
+rnn()
+#classify()
 
 

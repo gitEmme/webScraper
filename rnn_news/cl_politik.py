@@ -24,7 +24,7 @@ def max_value(a,b,c):
     return m
 def classify():
     model=tf.keras.models.load_model(
-        'newsmodel.hdf5',
+        'news10model.hdf5',
         custom_objects=None,
         compile=True
     )
