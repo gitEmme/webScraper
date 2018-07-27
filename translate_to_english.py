@@ -60,5 +60,5 @@ def english_body():
                     pickle.dump(temp, fp)
                 fp.close()
 
-translator_func("Ich bin gut")
+#translator_func("Ich bin gut")
 #english_body()     #it takes to long suspended for now

@@ -2,8 +2,14 @@ import pymongo
 import re
 import pprint
 client=pymongo.MongoClient('localhost')
+from googletrans import Translator
+#print(client.list_database_names())
 
-print(client.list_database_names())
+def translator_func(txt):
+    translator=Translator()
+    transtxt=translator.translate(txt,src='de',dest='en').text
+    pprint.pprint(transtxt)
+    return transtxt
 
 def count_all_data_in_db():
     total=0
@@ -96,4 +102,12 @@ def sentiment(collection):
 
 #sentiment3('politik')
 
-in_process_sentiment('reise','')
+#in_process_sentiment('reise','')
+
+def find_sentiment(collection,num,sentiment):
+    for c in client.spiegel[collection].find({'sentiment'+num: sentiment},no_cursor_timeout=True):
+        pprint.pprint(c)
+        translator_func(c['body'])
+
+
+find_sentiment('reise','','negative')

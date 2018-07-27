@@ -1,7 +1,7 @@
 import plotly
 import plotly.plotly as py
 import plotly.graph_objs as go
-from dataset_files.db_queries import sentiment3, sentiment
+from insights.db_queries import sentiment3, sentiment
 
 plotly.tools.set_credentials_file(username='plotEmme', api_key='LHsPkZDem9Y62Opj4bAx')
 

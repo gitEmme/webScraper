@@ -24,11 +24,11 @@ def max_value(a,b,c):
     return m
 def classify(collection):
     model=tf.keras.models.load_model(
-        'news10model.hdf5',
+        'saved_networks/news10model.hdf5',
         custom_objects=None,
         compile=True
     )
-    with open('raw_labeled_num','rb') as f:
+    with open('data_files/raw_labeled_num','rb') as f:
         data=pickle.load(f)
     f.close()
     dataset=[]
@@ -61,19 +61,24 @@ def classify(collection):
         #print(res)
     gc.collect()
 
-for item in [
-    #'auto',
-    'gesundheit',
-    'karriere',
-    #'kultur',
-    'lebenundlernen',
-    'netzwelt',
-    'panorama',
-    #'politik',
-    #'reise',
-    'sport',
-    'wirtschaft',
-    'wissenschaft'
-    ]:
-    print(item)
-    classify(item)
+
+def classify_all():
+    for item in [
+        #'auto',
+        'gesundheit',
+        'karriere',
+        'kultur',
+        'lebenundlernen',
+        'netzwelt',
+        'panorama',
+        #'politik',
+        #'reise',
+        'sport',
+        'wirtschaft',
+        'wissenschaft'
+        ]:
+        print(item)
+        classify(item)
+
+
+classify_all()

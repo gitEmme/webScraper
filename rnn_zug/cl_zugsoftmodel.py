@@ -25,11 +25,11 @@ def max_value(a,b,c):
 
 def classify(collection):
     model=tf.keras.models.load_model(
-        'zugsoftmodel.hdf5',
+        'saved_networks/zugsoftmodel.hdf5',
         custom_objects=None,
         compile=True
     )
-    with open('alldata','rb') as f:
+    with open('data_files/alldata','rb') as f:
         data=pickle.load(f)
     f.close()
     dataset=[]
@@ -62,19 +62,23 @@ def classify(collection):
         #print(res)
     gc.collect()
 
-for item in [
-    #'auto',
-    'gesundheit',
-    'karriere',
-    #'kultur',
-    'lebenundlernen',
-    'netzwelt',
-    'panorama',
-    #'politik',
-    #'reise',
-    'sport',
-    'wirtschaft',
-    'wissenschaft'
-    ]:
-    print(item)
-    classify(item)
+
+def classify_all():
+    for item in [
+        #'auto',
+        'gesundheit',
+        'karriere',
+        'kultur',
+        'lebenundlernen',
+        'netzwelt',
+        'panorama',
+        #'politik',
+        #'reise',
+        'sport',
+        'wirtschaft',
+        'wissenschaft'
+        ]:
+        print(item)
+        classify(item)
+
+classify_all()
