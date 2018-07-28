@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb71720e-b79a-416f-a93b-d4a5387f6ca5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_auto.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_gesundheit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_karriere.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_kultur.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_lebenundlernen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_netzwelt.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_panorama.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_reise.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_sport.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_wirtschaft.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_news/cl_wissenschaft.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/alldata" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/dev_v1.4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/dev_v1.4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/dev_v1.4relabeled" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/dev_v1.4relabeled_num" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/dev_v1.4relabeled_vec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/train_v1.4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/train_v1.4.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/train_v1.4relabeled" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/train_v1.4relabeled_num" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/train_v1.4relabeled_vec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugmodel.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugnet.h5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugsoft100model.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugsoft100net.h5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugsoftmodel.hdf5" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rnn_zug/zugsoftnet.h5" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/db_queries.py" afterPath="$PROJECT_DIR$/insights/db_queries.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/dumm" afterPath="$PROJECT_DIR$/insights/dumm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/dumm.csv" afterPath="$PROJECT_DIR$/insights/dumm.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/dumm.ods" afterPath="$PROJECT_DIR$/insights/dumm.ods" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/plotter.py" afterPath="$PROJECT_DIR$/insights/plotter.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/schädlich" afterPath="$PROJECT_DIR$/insights/schädlich" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/schädlich.csv" afterPath="$PROJECT_DIR$/insights/schädlich.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/schädlich.ods" afterPath="$PROJECT_DIR$/insights/schädlich.ods" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset_files/stem_raw_labeled" afterPath="$PROJECT_DIR$/insights/stem_raw_labeled" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/cl_politik.py" afterPath="$PROJECT_DIR$/rnn_news/classifier_newssoft10.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/model.h5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/model.h5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/model.hdf5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/model.hdf5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/net.h5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/net.h5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/news10model.hdf5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/news10model.hdf5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/news10net.h5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/news10net.h5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/newsmodel.hdf5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/newsmodel.hdf5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/newsnet.h5" afterPath="$PROJECT_DIR$/rnn_news/saved_networks/newsnet.h5" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/raw_labeled_num" afterPath="$PROJECT_DIR$/rnn_news/data_files/raw_labeled_num" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/raw_num_labeled" afterPath="$PROJECT_DIR$/rnn_news/data_files/raw_num_labeled" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_news/rawtext_labeled" afterPath="$PROJECT_DIR$/rnn_news/data_files/rawtext_labeled" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/rnn_zug/cl_soft_politik.py" afterPath="$PROJECT_DIR$/rnn_zug/classifier_zugsoft3.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rnn_news/cl_news10model.py" afterPath="$PROJECT_DIR$/rnn_news/cl_news10model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rnn_zug/cl_zugsoftmodel.py" afterPath="$PROJECT_DIR$/rnn_zug/cl_zugsoftmodel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/translate_to_english.py" afterPath="$PROJECT_DIR$/translate_to_english.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py" afterPath="$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py" />
     </list>
     <ignored mask=".idea" />
     <ignored mask=".xml" />
@@ -76,21 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="newsrnn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rnn_news/newsrnn.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1513">
-              <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_queries.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_queries.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/insights/db_queries.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -98,20 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="translate_to_english.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/translate_to_english.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plotter.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plotter.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/insights/plotter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="153">
               <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -123,8 +52,8 @@
       <file leaf-file-name="cl_news10model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rnn_news/cl_news10model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -135,8 +64,8 @@
       <file leaf-file-name="cl_zugsoftmodel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rnn_zug/cl_zugsoftmodel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="67">
-              <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+            <state relative-caret-position="95">
+              <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -211,6 +140,7 @@
         <option value="$PROJECT_DIR$/rnn_news/cl_news10model.py" />
         <option value="$PROJECT_DIR$/rnn_zug/cl_zugsoftmodel.py" />
         <option value="$PROJECT_DIR$/dataset_files/db_queries.py" />
+        <option value="$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py" />
       </list>
     </option>
   </component>
@@ -241,8 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,6 +202,43 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="webScraper" type="cbb8eebc:String" user="webScraper" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="webScraper" type="cbb8eebc:String" user="webScraper" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="webScraper" type="cbb8eebc:String" user="webScraper" />
+              <item name="rnn_zug" type="cbb8eebc:String" user="rnn_zug" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="webScraper" type="cbb8eebc:String" user="webScraper" />
+              <item name="rnn_zug" type="cbb8eebc:String" user="rnn_zug" />
+              <item name="data_files" type="cbb8eebc:String" user="data_files" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="webScraper" type="cbb8eebc:String" user="webScraper" />
+              <item name="sentiment" type="cbb8eebc:String" user="sentiment" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,17 +266,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BigData18HAW" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sentiment" />
+      <recent name="$PROJECT_DIR$/rnn_news/data_files" />
+      <recent name="$PROJECT_DIR$/rnn_news/saved_networks" />
+      <recent name="$PROJECT_DIR$/rnn" />
+      <recent name="$PROJECT_DIR$/trainset" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sentiment" />
       <recent name="$PROJECT_DIR$/cnn" />
       <recent name="$PROJECT_DIR$/dataset_files" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/rnn_news/data_files" />
-      <recent name="$PROJECT_DIR$/rnn_news/saved_networks" />
-      <recent name="$PROJECT_DIR$/sentiment" />
-      <recent name="$PROJECT_DIR$/rnn" />
-      <recent name="$PROJECT_DIR$/trainset" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -326,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.db_queries">
+  <component name="RunManager" selected="Python.cl_zugsoftmodel">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -576,24 +541,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="classifier_zugsoft3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rnn_zug" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="webScraper" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rnn_zug/classifier_zugsoft3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="db_queries" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -608,6 +555,24 @@
       <module name="webScraper" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataset_files/db_queries.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="naive_bayes_sentiment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sentiment" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="webScraper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -631,19 +596,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.classifier_zugsoft3" />
-      <item index="1" class="java.lang.String" itemvalue="Python.cl_zugsoftmodel" />
-      <item index="2" class="java.lang.String" itemvalue="Python.cl_news10model" />
-      <item index="3" class="java.lang.String" itemvalue="Python.db_queries" />
-      <item index="4" class="java.lang.String" itemvalue="Python.plotter" />
+      <item index="0" class="java.lang.String" itemvalue="Python.cl_zugsoftmodel" />
+      <item index="1" class="java.lang.String" itemvalue="Python.cl_news10model" />
+      <item index="2" class="java.lang.String" itemvalue="Python.db_queries" />
+      <item index="3" class="java.lang.String" itemvalue="Python.plotter" />
+      <item index="4" class="java.lang.String" itemvalue="Python.naive_bayes_sentiment" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.db_queries" />
+        <item index="0" class="java.lang.String" itemvalue="Python.cl_zugsoftmodel" />
         <item index="1" class="java.lang.String" itemvalue="Python.cl_news10model" />
-        <item index="2" class="java.lang.String" itemvalue="Python.cl_zugsoftmodel" />
-        <item index="3" class="java.lang.String" itemvalue="Python.plotter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.classifier_zugsoft3" />
+        <item index="2" class="java.lang.String" itemvalue="Python.naive_bayes_sentiment" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db_queries" />
+        <item index="4" class="java.lang.String" itemvalue="Python.plotter" />
       </list>
     </recent_temporary>
   </component>
@@ -697,39 +662,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="21" width="1309" height="747" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2734912" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15278839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32561728" sideWeight="0.52100843" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254086" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840237" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32392272" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665676" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="157" y="146" width="1109" height="547" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32561728" sideWeight="0.52100843" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24665676" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15278839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980901" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -741,9 +695,9 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988167" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838038" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24665676" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24665676" sideWeight="0.4789916" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15278839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15278839" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32561728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -804,14 +758,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dumm.csv" />
     <entry file="file://$PROJECT_DIR$/blob_sentiment.py" />
-    <entry file="file://$PROJECT_DIR$/rnn_zug/dev_v1.4.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_zug/dev_v1.4.xml" />
     <entry file="file://$PROJECT_DIR$/load_to_db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2941">
@@ -874,93 +821,30 @@
     <entry file="file://$PROJECT_DIR$/rrn_news/cl_wissenschaft.py" />
     <entry file="file://$PROJECT_DIR$/rrn_news/newsrnn.py" />
     <entry file="file://$PROJECT_DIR$/rrn_news/cl_auto.py" />
-    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_politik.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_news/cl_kultur.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="38" column="40" lean-forward="false" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_politik.py" />
+    <entry file="file://$PROJECT_DIR$/rnn_news/cl_kultur.py" />
     <entry file="file://$PROJECT_DIR$/rnn_zug/zug_rnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3077">
           <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_auto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_wirtschaft.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="39" column="48" lean-forward="false" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_news/cl_auto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_auto.py" />
+    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_wirtschaft.py" />
+    <entry file="file://$PROJECT_DIR$/rnn_news/cl_auto.py" />
     <entry file="file://$PROJECT_DIR$/rnn_zug/softmax_rnn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1207">
           <caret line="112" column="33" lean-forward="false" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#64#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_soft_auto.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="39" column="134" lean-forward="false" selection-start-line="39" selection-start-column="134" selection-end-line="39" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_zug/cl_soft_auto.py" />
     <entry file="file://$PROJECT_DIR$/rnn_news/classifier_newssoft10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
           <caret line="63" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,16 +852,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="73" column="15" lean-forward="true" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rnn_news/newsrnn.py">
+    <entry file="file://$PROJECT_DIR$/sentiment/naive_bayes_sentiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -990,20 +871,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insights/plotter.py">
+    <entry file="file://$PROJECT_DIR$/rnn_news/newsrnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="17">
+          <caret line="136" column="39" lean-forward="false" selection-start-line="136" selection-start-column="39" selection-end-line="136" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insights/db_queries.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rnn_news/cl_news10model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="69" column="8" lean-forward="false" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        <state relative-caret-position="272">
+          <caret line="49" column="36" lean-forward="true" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
@@ -1012,20 +901,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rnn_zug/cl_zugsoftmodel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        <state relative-caret-position="95">
+          <caret line="58" column="54" lean-forward="false" selection-start-line="58" selection-start-column="54" selection-end-line="58" selection-end-column="54" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insights/db_queries.py">
+    <entry file="file://$PROJECT_DIR$/insights/plotter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
