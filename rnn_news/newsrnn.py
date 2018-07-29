@@ -12,7 +12,7 @@ from scipy.spatial.distance import cdist
 import pymongo
 
 client=pymongo.MongoClient('localhost')
-### tensorboard --logdir==training:/home/dude/PycharmProjects/webScraper/rnn_news/Graph/ --host=127.0.0.1
+### tensorboard --logdir==training:/home/dude/PycharmProjects/Rnn_Sentiment/rnn_news/Graph/ --host=127.0.0.1
 ##  go to http://127.0.0.1:6006
 
 def relabel_data():
@@ -50,7 +50,7 @@ def split_data(percent,length):
 
 ## the following create the dictionary word: index and create the mapping array for each comment in the rrn_news
 def rnn():
-    with open('raw_labeled_num','rb') as f:
+    with open('data_files/raw_labeled_num','rb') as f:
         data=pickle.load(f)
     f.close()
     dataset=[]
@@ -149,18 +149,18 @@ def rnn():
         overwrite=True,
         include_optimizer=True
     )
-    model.save_weights('news100net.h5')
+    model.save_weights('saved_networks/news100net.h5')
     gc.collect()  # avoid arror induced by different gc sequence, if python collect session first , the program will exit successfully, if python collect swig memory(tf_session) first, the program exit with failure.
 
 
 
 def classify():
     model=tf.keras.models.load_model(
-        'newsmodel.hdf5',
+        'saved_networks/newsmodel.hdf5',
         custom_objects=None,
         compile=True
     )
-    with open('raw_labeled_num','rb') as f:
+    with open('data_files/raw_labeled_num','rb') as f:
         data=pickle.load(f)
     f.close()
     dataset=[]

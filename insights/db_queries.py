@@ -44,6 +44,14 @@ def count_mentioned(word1,word2,word3,collection):
             count+=1
             #pprint.pprint(comment['body'])
     return count
+
+def get_mentioned(word1,word2,word3,collection):
+    mentioned=[]
+    for comment in client.spiegel[collection].find():
+        if re.match(word1,comment['body']) or re.match(word2,comment['body']) or re.match(word3,comment['body']):
+            mentioned.append(comment)
+            #pprint.pprint(comment['body'])
+    return mentioned
 """
 print(count_mentioned(r'audi',r'Audi',r'AUDI','auto'))
 print(count_mentioned(r'bmw',r'Bmw',r'BMW','auto'))
@@ -67,6 +75,16 @@ def in_process_sentiment(collection,num):
         count_missing+=1
     print(count_missing)
 
+def in_progress_blob(collection):
+    count=0
+    for c in client.spiegel[collection].find({'blobPolarity':None},no_cursor_timeout=True):
+        count+=1
+        #pprint.pprint(c)
+    print(count)
+
+def print_collection(collection):
+    for c in client.spiegel[collection].find(no_cursor_timeout=True):
+        pprint.pprint(c)
 
 def sentiment3(collection):
     pos = 0
@@ -98,11 +116,26 @@ def sentiment(collection):
     print(res)
     return res
 
+def blob_sentiment(collection):
+    pos = 0
+    neu = 0
+    neg = 0
+    for c in client.spiegel[collection].find(no_cursor_timeout=True):
+        if c['blobPolarity']< float(-0.3):
+            neg+=1
+        elif c['blobPolarity']>float(0.7):
+            pos+=1
+        else:
+            neu+=1
+    res=[pos,neu,neg]
+    print(res)
+    return res
+
 
 
 #sentiment3('politik')
-
-#in_process_sentiment('reise','')
+#in_progress_blob('wissenschaft')
+#in_process_sentiment('wissenschaft','3')
 
 def find_sentiment(collection,num,sentiment):
     for c in client.spiegel[collection].find({'sentiment'+num: sentiment},no_cursor_timeout=True):
@@ -110,4 +143,3 @@ def find_sentiment(collection,num,sentiment):
         translator_func(c['body'])
 
 
-find_sentiment('reise','','negative')

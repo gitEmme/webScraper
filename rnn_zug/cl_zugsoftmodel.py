@@ -81,4 +81,6 @@ def classify_all():
         print(item)
         classify(item)
 
-classify_all()
+#classify_all()
+
+classify('wissenschaft')
